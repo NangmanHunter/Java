@@ -1,0 +1,11 @@
+- 논리 연산자	
+- 논리연산자	
+- 논리연산
+- &&, ||
+- LoGicalOperator
+- LGO
+- LO
+- Logical
+- 참/거짓 판단 (조건문에 자주 사용)
+- LogicalOperator
+- Logical Operators
