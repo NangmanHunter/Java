@@ -1,0 +1,2 @@
+- Java21
+- Java 21 2023년 Unnamed Classes (미리보기). public class 선언까지 삭제 가능.

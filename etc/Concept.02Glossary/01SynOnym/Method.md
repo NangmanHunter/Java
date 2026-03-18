@@ -1,0 +1,19 @@
+﻿- method
+- Method
+- method()
+- 메서드
+- 📌Method>>메서드
+- 📌Method>>메서드>>메소드
+- 📌메서드>>메소드
+- 메소드
+- 함수
+- 메서드(method)
+- 🔎국립국어원 표준국어대사전 기준으로:
+- 🔎“메서드(method)”는 표준 표기입니다.
+- 🔎“메소드”는 비표준 또는 일반적인 오기입니다.
+- Method▶️InstanceMethodㆍStaticMethod
+- Method👉InstanceMethodㆍStaticMethod
+- M▶️IMㆍSM
+- 🔎C언어▶️❌Method👉InstanceMethodㆍStaticMethod
+- 🔎Java▶️✅Method👉InstanceMethodㆍStaticMethod
+- 🔎Python▶️✅Method👉InstanceMethodㆍStaticMethod

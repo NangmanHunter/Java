@@ -1,0 +1,14 @@
+- JRE (Java Runtime Environment)
+- Java RuntimeEnvironment
+- JavaRuntimeEnvironment
+- 구성: JVM + 표준 클래스 라이브러리 (java.lang, java.util 등).
+- 용도: 이미 만들어진 자바 프로그램을 실행만 하려는 사용자에게 필요합니다. (참고: 최근 JDK 11 버전부터는 JRE를 따로 배포하지 않고 JDK에 통합하는 추세입니다.)
+- JRE=JVM+라이브러리
+- JRE=JVM+표준라이브러리
+- $JRE = JVM + Library\ Files$
+- 사용자라면? JRE만 있어도 됩니다. (게임을 실행만 할 때)
+- JRE
+- `JRE`
+- `JRE`.돌리기위해서라면 이정도까지만 ㅇㅋ.
+- JRE,자바 실행 환경,주방 (실행 도구 모음),JVM + 실행에 필요한 라이브러리들. 자바 프로그램을 실행만 할 때 필요함.
+- JRE (Java Runtime Environment)

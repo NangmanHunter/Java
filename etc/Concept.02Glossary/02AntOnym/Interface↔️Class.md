@@ -1,0 +1,2 @@
+- Interface↔️Class
+- InterFace↔️Class

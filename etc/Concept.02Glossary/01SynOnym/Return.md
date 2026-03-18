@@ -1,0 +1,26 @@
+- Return
+- Return.return
+- return
+- return.1return
+- Return.1Return
+- `return`
+- `return`.모델링자체가 함수형임
+- `return`.모델링자체가 함수형
+- `return`.모델링자체가 함수
+- `return`.모델링자체가 `함수`
+- `return`.모델링자체가 `함수`.f(x)
+- `return`.모델링자체가 `함수`.y=f(x)
+- `return`.개념모델링자체가 함수
+- `return`.모델링자체가 함수.`→함수→`
+- `return`.모델링자체가 함수.`→ㆍ함수ㆍ→`
+- `return`.모델링자체가 함수.`→ㆍ함수ㆍ→(return)`
+- return 1개임. 
+- return 1개임. 유일함.
+- return 1개이나, 여러개를 묶어서 보내는형식.
+- 배열형식*객체형식 ... 등등. 죄다 이구조.
+- return 1개.무조건적임.
+- 하나만보내고 하나만받는다.
+- return.1개
+- 1return
+- 1Return
+- 1리턴

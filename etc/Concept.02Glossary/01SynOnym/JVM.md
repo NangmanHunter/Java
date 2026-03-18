@@ -1,0 +1,18 @@
+- JVM (Java Virtual Machine)
+- 역할: 자바의 철학인 "Write Once, Run Anywhere"를 실현하는 주인공입니다.
+- 특징: 내가 짠 코드가 윈도우든 리눅스든 상관없이 돌아가게 해줍니다. 실제 기계어(이진 파일)로 번역해주는 '통역사' 역할을 합니다.
+- JVM
+- JVM,자바 가상 머신,가스레인지 (실행 엔진),컴파일된 바이트코드(.class)를 읽어서 OS에 맞게 실행함.
+- JVM (Java Virtual Machine)
+- JVM
+- Java Virtual Machine
+- JVM(Java Virtual Machine)은 우리 컴퓨터의 운영체제(OS) 위에 하나의 소프트웨어 계층으로 설치됩니다. 하드웨어와 자바 프로그램 사이에서 중재자 역할을 하는 '가상 컴퓨터'라고 보시면 됩니다.
+- Windows: 보통 C:\Program Files\Java\jdk-xx\bin 또는 C:\Program Files\Common Files\Oracle\Java\javapath에 위치합니다.
+- macOS: /Library/Java/JavaVirtualMachines/jdk-xx.jdk/Contents/Home/bin에 위치합니다.
+- Linux: /usr/lib/jvm/ 폴더 아래에 주로 설치됩니다.
+- JVM 그 자체는 하나의 거대한 실행 파일이라기보다, 여러 라이브러리와 실행 파일의 집합체입니다. 하지만 우리가 JVM을 "구동"시킬 때 사용하는 가장 핵심적인 파일은 다음과 같습니다.
+- java.exe (Windows) / java (Unix/Mac): 우리가 작성한 자바 코드를 실행할 때 사용하는 실제 실행 파일입니다. 이 파일을 실행하는 순간 JVM이 메모리에 올라가며 동작을 시작합니다.
+- jvm.dll (Windows) / libjvm.so (Linux) / libjvm.dylib (Mac): 이것이 진짜 JVM의 '심장'에 해당하는 공유 라이브러리 파일입니다. java.exe가 실행되면 이 라이브러리를 로드하여 가상 머신 환경을 구축합니다. 보통 bin/server 또는 lib/server 폴더 안에 들어있습니다.
+- JVM.`java.exe`
+- JVM.`java.exe`.`jvm.dll`
+- JVM은 별도의 독립된 물리적 장치가 아니라, java.exe라는 실행 파일과 jvm.dll 같은 라이브러리 파일들이 모여서 만든 가상의 실행 환경입니다.

@@ -1,0 +1,2 @@
+- Static↔️Instance
+- StaticMethod↔️InstanceMethod
