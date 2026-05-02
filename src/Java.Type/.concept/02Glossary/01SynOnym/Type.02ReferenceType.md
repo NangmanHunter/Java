@@ -1,0 +1,28 @@
+- 레퍼런스타입
+- 실제 값은 힙(Heap) 메모리라는 별도 공간에 저장하고, 변수에는 그 값이 있는 주소(Reference)를 저장합니다.
+- 레퍼런스타입.01클래스 (Class): 가장 대표적인 것이 String입니다. (주의: String은 기본 타입이 아니라 클래스입니다!)
+- 레퍼런스타입.02인터페이스 (Interface): 추상적인 구조를 정의할 때 사용합니다.
+- 레퍼런스타입.03배열 (Array): 같은 타입의 데이터를 묶음으로 관리합니다. (int[], String[] 등)
+- 레퍼런스타입.04열거형 (Enum): 정해진 상수 값들의 집합입니다.
+- 자바의 참조 타입(Reference Type)은 메모리의 주소를 참조한다는 공통점이 있지만, 그 성격에 따라 크게 4가지 줄기로 나눌 수 있습니다.
+- 참조 타입
+- 참조 타입 (Reference Type)
+- 참조자료형
+- 참조타입
+- 참조타입형
+- 참조형
+- DataType.02ReferenceType
+- Type.02ReferenceType
+- Reference Type
+- ReferenceType
+- ⚓ReferenceType
+- `ReferenceType`
+- `ReferenceType`-여기는 표준어다.
+- ReferenceType.✅Null
+- ReferenceType.✅대문자
+- ReferenceType.✅대문자❌소문자
+- ReferenceType.대문자
+- 레퍼런스 타입 (Reference Type)
+- 자바의 데이터 타입은 크게 Primitive Type(int, double 등)과 Reference Type으로 나뉩니다. 말씀하신 class 위치에 들어가는 모든 것들은 메모리의 힙(Heap) 영역에 객체를 생성하는 참조 타입입니다.
+- 포함 범위: 클래스(Class), 인터페이스(Interface), 열거형(Enum), 어노테이션(@Interface), 그리고 배열(Array).
+

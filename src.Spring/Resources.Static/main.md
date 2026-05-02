@@ -1,0 +1,21 @@
+## `📁resources/📁static/`
+- 스프링 부트의 정해진 규칙(Convention)상 `static/` 폴더 안에 넣는 것이 무조건적인 관례입니다. 
+- `static/` 없이 `resources/` 바로 아래에 두면 스프링이 이 파일을 찾지 못합니다.
+- src/main/resources/static/index.html
+- `src/main/resources/static/index.html`
+- `📁src/📁main/📁resources/📁static/📄index.html`
+- `📁resources/📁static/📄index.html`
+- `📁resources/📁static/`
+- 📁resources/📁static/
+- `📁resources/📁static`
+- `📁static/📄index.html`
+- `📁src/📁main/📁resources/📁static/index.html`
+- ✅`src/main/resources/static/index.html`
+- ✅`resources/static/index.html`
+- `index.html`.`resources/static/index.html`
+- `index.html`.`src/main/resources/static/index.html`
+- `index.html`.`static/index.html`
+- ✅`static/index.html`
+- ❌`src/main/resources/index.html`
+- Src.Main.Resources.IndexHtml
+- Src.Main.Resources.IndexㆍHtml

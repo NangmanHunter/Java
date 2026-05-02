@@ -1,0 +1,7 @@
+- Map은 '규격(Interface)'입니다
+- Map은 "데이터를 Key(키)와 Value(값)의 쌍으로 관리해라"라는 규칙만 정의해 놓은 설계도입니다.
+- Map은 클래스가 아니라 '인터페이스(Interface)'입니다.
+- Map	인터페이스	❌ 불가	"키-값" 구조의 전체적인 규칙
+- Map.Key
+- Map.`Key`
+- Map.`Key`.값

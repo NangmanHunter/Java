@@ -1,0 +1,12 @@
+- Login.Url.✅／api／auth／login
+- Login.Url.✅`／api／auth／login`
+- Login.Url.`／api／auth／login`
+- Login.Url.／api／auth／login
+- 프론트엔드(React, Vue 등)와 통신하는 현대적인 방식에서 가장 많이 쓰입니다. "어떤 자원(Member)에 대해 인증(Auth)을 요청한다"는 의미가 강합니다.
+- **`/api/auth/login`**: 가장 표준적입니다. `/api`를 붙여서 비즈니스 로직과 보안 로직을 구분합니다.
+- `/api/auth/login`.RESTful 스타일 (가장 추천)
+- `/api/auth/login`
+- Login.Url.✅`/api/auth/login`
+- Login.Url.`/api/auth/login`
+- `/auth`
+- `/auth`.이거 확실히 잡아주자.-컨트롤러랑 또다르거든. 다르기에 더구분명확히위해 더진행줄것ㄱㄱ.

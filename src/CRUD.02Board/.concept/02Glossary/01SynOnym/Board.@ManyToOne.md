@@ -1,0 +1,3 @@
+- 주인 (외래키 직접 관리)
+- member 필드를 바꾸면 DB의 FK가 바뀜
+- Board.@ManyToOne

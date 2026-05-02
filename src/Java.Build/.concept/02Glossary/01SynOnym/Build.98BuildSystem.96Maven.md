@@ -1,0 +1,67 @@
+- `📁main/📁java/`
+- `📁main/📁java/`-2개가 더추가됨
+- `📁src/📁main/📁java/`-3폴더화
+- `📁src/📁main/📁java/`-3경로화
+- `📁src/📁main/📁java/`-3레벨화
+- `📁main/📁java/`-이부분고정화
+- `Maven`
+- `Maven`.`📁src/📁main/📁java/`
+- `Maven`.01`📁src/📁main/📁java/`
+- `Maven`.02`📁src/📁main/📁resources/`
+- `Maven`.03`📁src/📁test/📁java/`
+- `Maven`.04`📁src/📁test/📁resources/`
+- `Maven`.2폴더추가화
+- `Maven`.2디렉토리추가화
+- `Maven`.2디렉토리추가화.`📁main/📁java/`
+- `Maven`.2디렉토리추가화.`📁main/📁java/`추가화
+- `Maven`.2디렉토리추가화.`📁main/📁java/`추가화.`📁src/📁main/📁java/`
+- `Maven`.`pom.xml`
+- `Maven`.`pom.xml`.`<>`
+- `Maven`.`pom.xml`.`<aaa>`
+- `Maven`.`pom.xml`.`<aaa></aaa>`
+- `Maven`.규칙의힘
+- `Maven`.규칙화
+- `src/main/java`
+- `src/main/java`-이때부터 경로강제화
+- `src/main/java`-이때부터 경로고정화
+- 규칙의 힘: Maven 프로젝트는 전 세계 어디서 누가 열어도 폴더 구조가 똑같습니다. 그래서 인수인계가 엄청나게 편해졌죠.
+- 기업용/레거시 프로젝트: 여전히 Maven을 많이 씁니다. (안정성이 최고니까요.)
+- 라이브러리 관리👉자동 (코드 몇 줄로 인터넷에서 가져옴)
+- 중앙 저장소 (Maven Central): "모든 자바 라이브러리는 여기 모여라!"라는 규칙을 만들었습니다.
+- Build.`Maven`
+- Build.`Maven`.`pom.xml`
+- Build.`Maven`.`📄pom.xml`
+- Build.`Maven`.`pom.xml`.`<>`
+- Build.`Maven`.`pom.xml`.`<aaa>`
+- Build.`Maven`.`pom.xml`.`<aaa></aaa>`
+- Build.05.Maven
+- Build.05Maven
+- Build.95.05Maven
+- Build.95.Maven
+- Build.95Maven
+- Build.Maven
+- Build.Maven.`2004`
+- Build.Maven.2004
+- IntelliJ 방식 vs Maven: 급이 다릅니다👉이 둘을 비교하는 건 '메모장에 저장하기'와 '클라우드 데이터베이스에 저장하기'를 비교하는 것과 비슷해요.
+- Maven
+- Build.98BuildSystem.Maven
+- Build.98BuildSystem.96Maven
+- Maven: "무조건 내 규칙을 따라라! (XML 방식)" -> 보수적, 안정적, 조금 딱딱함.
+- Maven.`2004`
+- Maven(메이븐)은 IntelliJ 빌드 방식과는 비교도 할 수 없을 만큼 거대한 산맥이자, 현대적 빌드 시스템의 시조새라고 보시면 됩니다.
+- Maven의 위상: "자바 빌드의 대헌장"
+- Maven이 2004년쯤 등장하면서 자바 개발의 역사가 바뀌었습니다.
+- pom.xml: 이 파일 하나만 있으면 프로젝트의 모든 정보(버전, 라이브러리, 빌드 방식)가 설명됩니다.
+- src/main/java
+- src/main/java 등 전 세계 공통 구조 강제
+- Maven이 2004년쯤 등장하면서 자바 개발의 역사가 바뀌었습니다. 그전까지는 라이브러리 하나 쓰려면 홈페이지 가서 JAR 파일 받고, 프로젝트에 넣고, 경로 꼬이면 고생했거든요.
+- 메이븐/그래들: src/main/java/패키지명/... (표준 규격)
+- Maven의 등장: "이제부터 src/main/java는 법이다!"
+- 사용자님이 질문하신 "고정(강제)"의 개념은 2004년 Maven이 나오면서 생겼습니다.
+- Maven의 철학: "폴더 이름 정하는 데 에너지 쓰지 마라. 내가 정해준 곳에 넣으면 내가 알아서 빌드해 줄게."
+- 구조의 세분화: 단순히 src만 쓰는 게 아니라, 실제 코드(main)와 테스트 코드(test)를 분리하고, 그 안에 언어별(java)로 또 나누는 src/main/java 형식이 표준이 되었습니다.
+- 2세대: Maven
+- 2004년경
+- 규약 중심. 정해진 폴더 구조만 지키면 자동으로 빌드됨.
+- 혁신. pom.xml 에 이름만 적으면 자동 다운로드.
+- pom. xml (XML)

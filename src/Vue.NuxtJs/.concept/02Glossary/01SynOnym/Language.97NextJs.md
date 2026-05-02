@@ -1,0 +1,38 @@
+- NuxtJs>>NextJs
+- NuxtJs.`HtmlㆍCssㆍJs`
+- N`u`xtJs.`HtmlㆍCssㆍJs`
+- NextJs.Js
+- NextJs.`Js`
+- NextJs.`Js`-모든걸 Js화해버림
+- N`e`xtJs.`Js`
+- NextJs.HtmlㆍCssㆍJs<<Js
+- `NuxtJs>>NextJs`.아니 딴게아니라 너무 쓸데없이 싹 다 제이에스화 시켜버림 그러니까 굳이 HTML로 끝낼 수 있는 거를 굳이 JS로 만들어서 굳이 JS 문법으로 설정한 형태 
+- `NuxtJs>>NextJs`.특히 CSS 같은 경우도 굳이 JS로 바꿔서  굳이 리액트 본인이 원하는 형태 그런 식으로 진행한 형태 
+- `NuxtJs>>NextJs`.이게 한두 개는 ㅇㅋ인데 전부가 돼버리면 최적화가 싹 다 붕괴되는 형태.
+- `NuxtJs>>NextJs`.예전에도 계속 고민했던 부분이 그 언어나 적용할 때 어떤 형태로 할지를 항상 고민했던 부분 
+- `NuxtJs>>NextJs`.그 부분 자체가 그때의 최적화는 한쪽에 몰아서의 최적화가 좋을 줄 알았으나. 
+- `NuxtJs>>NextJs`.한마디로 한 언어 일 랭귀지로만 모든 걸 정의하는 게 가장 좋은 줄 알았으나 막상 실제 그 언어가 원하는 형태 그 언어가 원하는 형태에서의 최적화는 그 언어에서 언어 표현에서 나오기 때문에 오히려 나중에는 그 언어 형태로 가는 게 가장 바람직한 형태.
+- `NuxtJs>>NextJs`.언어에 최적화는 한 언어에 최적화 로서 진행하는 것보다 각각의 언어에 최적화로 진행하는 것이 가장 바람직
+- `NuxtJs>>NextJs`.이게 수학이나 물리에서도 그리고 법학에서도 이 똑같은 개념이긴 함 
+- `NuxtJs>>NextJs`.같은 거를 굳이 재정의 하지 않는다. 그게 유달리 법학은 제일 심하긴 함 
+- `NuxtJs>>NextJs`.그리고 수학에서도 같은 거는 같은 걸로 그냥 정리해버리고 나중에 필요한 경우에 활용하는 형태로 가져가고. 
+- `NuxtJs>>NextJs`.일단은 단일한 형태로서는 아주 경량화된 아주 추상화된 그런 언어 그런 기호 그런 개념 그런 정의로써 개념을 잡아놓는 게 가장 최적화임.
+- `NuxtJs>>NextJs`.굳이 쓸데없이 말을 늘어놓지 않는다.
+- `NuxtJs>>NextJs`.굳이 쓸데없이 연산자를 붙여 놓지 않는다.
+- `NuxtJs>>NextJs`.완전히 같다라고 한다면 연산자 있는 것보다 연산자 없는게 더 낫다
+- `NuxtJs>>NextJs`.물리에서 가장 강력한게 기존성임.
+- `NuxtJs>>NextJs`.특히 기존성을 어떻게 살릴 거냐 하는 부분에서 모든공식들이 싹다 귀결됨
+- `NuxtJs>>NextJs`.프사이만 보더라도. 프사이뿐만 아니라 모든 공식 모든 개념에서도 싹 다 방정식을 만들기 위해 양변에 기존성을 어떻게든 살리는 형태로 들고감.
+- `NuxtJs>>NextJs`
+- `NuxtJs>>NextJs`-기존성
+- `NuxtJs>>NextJs`-나에게
+- `NuxtJsㆍNextJs`-시장은 언제든 바뀐다.
+- `NuxtJsㆍNextJs`- 직감성 있으면 분명히 그 빛을 바란다. 아직 더 오지 않았을 뿐이다. 마치 한글이 나중에 더 대접 받듯이.
+- Nuxt는 Universal(SSR + CSR) 프레임워크입니다.
+- NuxtJs.NextJs
+- Js.NextJs
+- Language.NextJs
+- Language.02NextJs
+- Language.98NextJs
+- Language.97NextJs
+- Language.97NextJs.98Vue

@@ -1,0 +1,4 @@
+- LocalHost.8080
+- 우리의 스프링 부트: 보통 8080번 포트에서 돌아갑니다.
+- `http://localhost:8080`.`http://localhost:8080/index.html`
+- `http://localhost:8080`

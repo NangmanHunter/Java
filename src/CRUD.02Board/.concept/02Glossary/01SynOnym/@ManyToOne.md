@@ -1,0 +1,3 @@
+- @ManyToOne(fetch = FetchType.LAZY)
+- ManyToOne: 게시글(Many)은 한 명의 회원(One)에 속한다는 뜻입니다.
+- fetch = FetchType.LAZY (지연 로딩): 매우 중요한 성능 최적화 설정입니다. 게시글을 불러올 때 작성자 정보(Member)까지 당장 필요 없다면 가져오지 않고, 실제로 board.getMember()를 호출하는 시점에 DB에서 가져오라는 뜻입니다. (실무에서는 선택이 아닌 필수입니다.)

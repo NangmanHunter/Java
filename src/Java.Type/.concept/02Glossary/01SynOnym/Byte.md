@@ -1,0 +1,6 @@
+- 1byte=8bit
+- 1byte=2$^8$경우
+- 1byte=256경우
+- Byte
+- byte
+- Byte.Bit

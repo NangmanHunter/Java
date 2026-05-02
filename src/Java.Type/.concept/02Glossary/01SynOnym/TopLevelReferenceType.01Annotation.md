@@ -1,0 +1,13 @@
+- TopLevelReferenceType.@Interface
+- @
+- @interface
+- @.@interface
+- Annotation
+- TopLevelReferenceType.Annotation
+- TopLevelReferenceType.95Annotation
+- TopLevelReferenceType.01Annotation
+- TopLevelReferenceType.Annotation.@
+- TopLevelReferenceType.Annotation.@Interface
+- TopLevelReferenceType.Annotation.@.@Interface
+- TopLevelReferenceType.Annotation.@.`@Interface`
+- TopLevelReferenceType.Annotation.`@Interface`

@@ -1,0 +1,20 @@
+- 가장 큰 기술적 차이는 컴파일러에 있습니다.
+- 다국어(Java, Python, JS 등) 통합
+- 마이크로서비스, 서버리스, 고성능 컴퓨팅
+- 매우 낮음
+- 매우 빠름 (Native Image 기준)
+- 용도: 클라우드 네이티브 환경, 서버리스(AWS Lambda 등), Docker 컨테이너 최적화에 압도적으로 유리합니다.
+- 장점: 프로그램 실행 속도가 0.1초 수준으로 빨라지고, 메모리 사용량(Footprint)이 획기적으로 줄어듭니다.
+- 폴리글랏.폴리글랏(Polyglot) 능력
+- 폴리글랏.표준 JVM: 주로 Java, Kotlin, Scala 같은 JVM 언어 중심입니다.
+- 폴리글랏.GraalVM: Truffle 프레임워크를 통해 JavaScript, Python, Ruby, R, C/C++ 등 다양한 언어를 하나의 런타임 위에서 실행할 수 있게 해줍니다. 예를 들어, Java 코드 안에서 Python 라이브러리를 직접 호출해도 성능 저하가 거의 없습니다.
+- 폴리글랏.GraalVM은 Java만을 위한 도구가 아닙니다.
+- GraalVM
+- GraalVM=JIT+AOT
+- GraalVM=JIT+`AOT`
+- GraalVM (Native Image): 실행 파일을 만들기 전에 미리 기계어로 번역(AOT, Ahead-of-Time 컴파일)해버립니다.
+- GraalVM: 컴파일러 자체를 Java로 다시 작성했습니다(Graal 컴파일러). 최신 최적화 알고리즘을 적용하기 쉬워졌고, 특히 복잡한 객체 지향 코드나 함수형 프로그래밍(Stream API 등)을 처리할 때 표준 JVM보다 더 높은 실행 성능을 보여줍니다.
+- GraalVM과 표준 JVM(일반적으로 OpenJDK의 HotSpot VM)의 차이는 한마디로 "기존의 성능 한계를 넘기 위해 컴파일러와 실행 방식을 혁신한 고성능 런타임"이라고 요약할 수 있습니다.
+- JIT + AOT (미리 컴파일) 지원
+- JIT 컴파일러의 교체 (Graal Compiler)
+- JVM도 GraalVM 같은 프로젝트를 통해 시작 속도를 개선하고 있어 두 엔진 사이의 간극은 점점 줄어들고 있습니다.-V8ㆍWebAssembly

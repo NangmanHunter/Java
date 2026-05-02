@@ -1,0 +1,10 @@
+- Login.Url.❌／login／process
+- Login.Url.❌／login-process
+- Login.Url.❌／login-proc
+- Login.Url.❌／member／login-proc
+- Login.Url.❌/login/process
+- Login.Url.❌`/login/process`
+- Login.Url.❌`/login-process`
+- Login.Url.❌`/login-proc`
+- Login.Url.❌`/member/login-proc`
+- **`/login/process`**: `login-proc`보다 좀 더 풀어서 쓴 형태입니다.

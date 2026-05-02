@@ -1,0 +1,16 @@
+- CRUD.Mapping.Get
+- CRUD.Mapping.GetMapping
+- CRUD.Mapping.@GetMapping
+- CRUD.R.Mapping.@GetMapping
+- CRUD.R.Mapping.GetMapping
+- CRUD.R.@GetMapping
+- CRUD.02R.@GetMapping
+- `CRUD.02R.@GetMapping`
+- `CRUD.02R.@GetMapping`.200
+- `CRUD.02R.@GetMapping`.200.ok
+- `CRUD.02R.@GetMapping`.200상태코드
+- CRUD.02R.01@GetMapping
+- CRUD.02R.01.@GetMapping
+- CRUD.02.R.01.@GetMapping
+- CRUD.02R.00@GetMapping
+- CRUD.02.R.@GetMapping

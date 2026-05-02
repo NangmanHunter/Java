@@ -1,0 +1,8 @@
+- `<NuxtPage />`.`<slot />`
+- `<NuxtPage />` = `<slot />`
+- `<NuxtPage />`(app.vue) = `<slot />`(layouts/)
+- `📄app.vue <NuxtPage />`.`📁layouts/ <slot />`
+- `📄app.vueㆍ<NuxtPage />`.`📁layouts/ㆍ<slot />`
+- `📄app.vue`ㆍ`<NuxtPage />`.`📁layouts/`ㆍ`<slot />`
+- `📄app.vue <NuxtPage />`.`📁layouts/📄default.vue <slot />`
+- NuxtPage.slot

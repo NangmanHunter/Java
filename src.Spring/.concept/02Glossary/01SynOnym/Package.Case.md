@@ -1,0 +1,7 @@
+- Package.Case
+- Package.Case.SnakeCase 되긴하나 지양.
+- Package.Case.`.`
+- Package.Case.✅`.`
+- Package.Case.✅DotCase.✅`.`
+- Package.Case.❌KebabCase
+- Package.Case.❌KebabCase.❌`-`

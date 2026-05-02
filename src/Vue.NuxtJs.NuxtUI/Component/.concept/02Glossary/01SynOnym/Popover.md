@@ -1,0 +1,2 @@
+- Popover
+- https://ui.nuxt.com/docs/components/popover

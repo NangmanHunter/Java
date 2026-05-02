@@ -1,0 +1,3 @@
+- domain.comment
+- `domain.comment`-따로파기
+- Comment.Board밑에파기<<Board따로파기

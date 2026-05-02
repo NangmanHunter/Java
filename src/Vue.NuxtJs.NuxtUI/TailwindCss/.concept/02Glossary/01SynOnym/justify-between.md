@@ -1,0 +1,4 @@
+- `justify-between`.`justify-content: space-between;`
+- `justify-between`.`justify-content: space-between;`-flex기준 가로정렬
+- `justify-between`
+- `justify-content: space-between;`

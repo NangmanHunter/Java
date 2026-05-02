@@ -1,0 +1,34 @@
+- DataType.01PrimitiveType
+- Type.01PrimitiveType
+- PrimitiveType
+- PrimitiveType.❌Null
+- PrimitiveType.✅0❌Null
+- PrimitiveType.✅0✅false❌Null
+- PrimitiveType.✅0(false)❌Null
+- PrimitiveType.소문자
+- PrimitiveType.✅소문자
+- PrimitiveType.❌대문자✅소문자
+- PrimitiveType.8PrimitiveType
+- 8PrimitiveType
+- 08PrimitiveType
+- 8`PrimitiveType`
+- Primitive
+- DataType.01Primitive
+- 기본 타입 (Primitive Type) - 8개
+- 실제 데이터 값을 메모리에 직접 저장합니다. 비어있을 수 없으며(null 불가), 산술 연산이 가능합니다.
+- 원시타입
+- 8기본타입
+- 기본타입.01정수,byte,1 byte,아주 작은 정수 (-128 ~ 127)
+- 기본타입.02정수,short,2 byte,작은 정수
+- 기본타입.03정수,int,4 byte,기본 정수형 (약 +-21억)
+- 기본타입.04정수,long,8 byte,"큰 정수 (금융, 데이터 분석 등)"
+- 기본타입.05실수,float,4 byte,소수점 데이터 (정밀도 낮음)
+- 기본타입.06실수,double,8 byte,기본 실수형 (정밀도 높음)
+- 기본타입.07문자,char,2 byte,"문자 하나 ('A', '가')"
+- 기본타입.08논리,boolean,1 byte,"참/거짓 (true, false)"
+- 메모리 위치: 기본 타입은 스택(Stack) 영역에 직접 값을 들고 있고, 참조 타입은 스택에 주소를 들고 실제 데이터는 힙(Heap)에 둡니다.
+- 기본값: 기본 타입은 초기화하지 않으면 0이나 false 등의 기본값을 가지지만, 참조 타입은 아무것도 가리키지 않을 때 null 상태가 됩니다.
+- 성능: 기본 타입이 메모리 사용량도 적고 처리 속도도 훨씬 빠릅니다.
+- 기본자료형
+- 기본형
+- 프리미티브타입

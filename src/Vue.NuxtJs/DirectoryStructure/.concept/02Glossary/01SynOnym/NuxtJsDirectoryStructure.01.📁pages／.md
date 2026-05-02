@@ -1,0 +1,18 @@
+- 📁pages／
+- 📁pages/
+- DirectoryStructure.📁pages/
+- NuxtJsDirectoryStructure.01📁pages/
+- NuxtJsDirectoryStructure.01📁pages/-시발점기준
+- NuxtJsDirectoryStructure.02📁pages/-크기기준.slot들어가는순간 쪼그라듬.객체로 싹줄어버려 진행하는격.
+- NuxtJsDirectoryStructure.01📁pages／
+- NuxtJsDirectoryStructure.01.📁pages／
+- NuxtJsDirectoryStructure.01.📁pages/
+- NuxtJsDirectoryStructure.99.📁pages/
+- NuxtJsDirectoryStructure.99.📁pages／
+- NuxtJsDirectoryStructure.99📁pages/
+- NuxtJsDirectoryStructure.📁pages/
+- 📁pages
+- pages
+- `pages`
+- `pages/`
+- `pages/` 여기가 시발점임.ㄱㄱ.

@@ -1,0 +1,2 @@
+- List⚖️Stream
+- .collect()⚖️.stream()

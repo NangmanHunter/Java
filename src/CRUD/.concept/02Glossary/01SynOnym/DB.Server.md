@@ -1,0 +1,8 @@
+- DB.Server
+- DBServer
+- DB.DBServer
+- DB.서버
+- DB서버
+- DB도 서버다
+- DB도 서버이다
+- DB도 입출력이있어서 그래서 서버라고 표현하는듯.

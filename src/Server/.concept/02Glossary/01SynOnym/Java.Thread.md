@@ -1,0 +1,6 @@
+- Java.Thread
+- JavaThread
+- Thread.Java
+- 자바의 스레드는 두 종류가 있습니다.
+- **User Thread (Non-daemon):** 프로그램의 핵심 로직을 수행합니다.
+- **Daemon Thread:** 주 보조 역할을 하며, User Thread가 하나도 없으면 자동으로 종료됩니다.

@@ -1,0 +1,2 @@
+- viewCount
+- 조회수

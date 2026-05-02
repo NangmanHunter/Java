@@ -1,0 +1,17 @@
+- ⚓ResponseEntity
+- ResponseEntity
+- API.ResponseEntity
+- API.반환타입.ResponseEntity
+- API.반환타입.ResponseEntity-싹통일화ㄱㄱ.
+- RestAPI.반환타입.ResponseEntity-싹통일화ㄱㄱ.
+- API.리턴타입.ResponseEntity
+- API.반환.ResponseEntity
+- API.리턴.ResponseEntity
+- 응답개체
+- 리스폰스엔티티
+- ResponseEntity.200ㆍ201ㆍ204
+- ResponseEntity.200(Read)ㆍ201(Create)ㆍ204(Delete)
+- ResponseEntity.200(ReadㆍUpdate)ㆍ201(Create)ㆍ204(Delete)
+- ResponseEntity.200(Get)ㆍ201ㆍ204
+- ResponseEntity.200(Get)ㆍ201(Post)ㆍ204(Delete)
+- ResponseEntity.200(GetㆍUpdate)ㆍ201(Post)ㆍ204(Delete)

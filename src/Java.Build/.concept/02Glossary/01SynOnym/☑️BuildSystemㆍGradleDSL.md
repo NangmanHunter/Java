@@ -1,0 +1,10 @@
+- ☑️GradleDSLㆍBuildSystem
+- ☑️GradleDSLㆍBuildSystem.☑️BuildSystemㆍGradleDSL
+- ☑️GradleDSLㆍBuildSystem<<☑️BuildSystemㆍGradleDSL-작업순서
+- ☑️GradleDSLㆍBuildSystem<<☑️BuildSystemㆍGradleDSL-세팅순서
+- ☑️GradleDSLㆍBuildSystem>>☑️BuildSystemㆍGradleDSL-상하
+- BuildSystemㆍGradleDSL-빌드를하는데.그위에 DSL은 뭘로 더갈거냐.
+- BuildSystemㆍGradleDSL-로우단계부터 설정하고.-그위에 더얹는것 설정하는형태.
+- BuildSystem.Gradle.GradleDSL
+- BuildSystem.✅Gradle.✅GradleDSL
+- BuildSystem.❌Gradle.❌GradleDSL

@@ -1,0 +1,10 @@
+- slot
+- Slot
+- `slot`
+- slot.구멍
+- `<slot />`
+- `<slot />`-소문자
+- `<slot />`-소문자 이어야 Vue에서 인식해줌
+- `＜slot ／＞`
+- ＜slot ／＞
+- 슬롯

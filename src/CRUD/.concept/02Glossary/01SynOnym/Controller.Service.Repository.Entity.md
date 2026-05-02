@@ -1,0 +1,5 @@
+- Controller→Service→Repository→Entity
+- Controller←Service←Repository←Entity
+- `Controller←Service←Repository←Entity`
+- `Controller←Service←Repository←Entity`-설계
+- Controller.Service.Repository.Entity

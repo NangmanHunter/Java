@@ -1,0 +1,17 @@
+- Spring.03Repository.Entity
+- Spring.CRUD.03Repository.Entity
+- CRUD.Entity
+- CRUD.Entity-엔티티는 CRUD 가장밑바닥이다.
+- CRUD.Entity-엔티티는 CRUD 가장근본이다.
+- CRUD.Entity-엔티티 이게 전부임.
+- CRUD.Entity-엔티티 이게 가장근본임.
+- CRUD.Entity-엔티티 이걸못잡으면 그다음걸못한다.
+- CRUD.Entity-엔티티 이걸그누구보다 강하게 잡을줄안다라면. 그러면 최적화 된다라는것. ㄱㄱ.
+- CRUD.Entity-엔티티 게시판 이런것 만들기ㄱㄱ.-복붙 Copy 이것바로되게ㄱㄱ.
+- CRUD.Entity-`엔티티 게시판` 이런것 만들기ㄱㄱ.
+- CRUD.Entity-`엔티티 게시판`
+- CRUD.Entity-`엔티티게시판`
+- CRUD.Entity-`엔티티게시판`-디폴트잡아주기
+- CRUD.Entity-`엔티티 게시판`-Member.Board-이것부터 싹ㄱㄱ.
+- CRUD.Entity-`엔티티보드`
+- CRUD.Entity-`엔티티Board`

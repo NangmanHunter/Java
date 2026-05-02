@@ -1,7 +1,0 @@
-- 정적바인딩
-- 컴파일시점
-- 컴파일
-- Compile
-- CompileTiming
-- Compile시점
-- 컴파일시점▶️❌오버라이딩

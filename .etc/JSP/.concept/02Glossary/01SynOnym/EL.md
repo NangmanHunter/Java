@@ -1,0 +1,9 @@
+- EL(Expression Language)은 JSP 페이지에서 자바 코드를 대신해 데이터를 쉽고 간결하게 출력하기 위한 표준 표현식입니다.
+- 쉽게 비유하자면, JSP가 커다란 도구함이라면, JSTL은 그 안의 전동 드릴(라이브러리)이고, EL은 그 드릴에 끼워 쓰는 비트(문법)와 같습니다.
+- EL의 핵심 역할: "꺼내서 보여주기"
+- JSP의 가장 큰 목적은 서버에 저장된 데이터를 화면에 뿌려주는 것입니다. EL은 이 작업을 가장 짧은 코드로 수행합니다.
+- 기존 방식 (스크립틀릿): 매우 길고 복잡합니다. `<%= ((Member)request.getAttribute("user")).getName() %>`
+- EL 방식: 직관적이고 짧습니다. `${user.name}`
+- EL(Expression Language)
+- Expression Language
+- ExpressionLanguage

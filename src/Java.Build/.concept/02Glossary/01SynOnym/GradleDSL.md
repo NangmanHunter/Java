@@ -1,0 +1,3 @@
+- GradleDSL
+- Gradle DSL (Domain Specific Language)
+- "기계(Gradle)에게 내리는 주문서의 서식"입니다. Gradle이라는 기계를 작동시키기 위해 `build.gradle` 파일을 작성하는데, 이때 어떤 문법(언어)을 쓸지 결정하는 것입니다.

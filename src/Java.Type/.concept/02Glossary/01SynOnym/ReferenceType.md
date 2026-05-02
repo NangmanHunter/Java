@@ -1,0 +1,3 @@
+- ReferenceType
+- ReferenceType.이게 Primitive아니면 그냥싹다 참조타입임.-엄밀히 내가원하는타입은아니다.
+- 참조타입

@@ -1,0 +1,75 @@
+- Ant(Apache Ant)는 자바 빌드 도구계의 '살아있는 화석'이자, 모든 자동화 도구의 설계 철학을 정립한 선구자입니다. 2000년에 처음 나왔을 때, 사람들은 "와, 이제 일일이 javac 안 쳐도 돼!"라며 열광했었죠.
+- Apache Ant
+- ApacheAnt
+- `<project name="MyProject" default="jar"> ... </project>`
+- `<project name="MyProject" default="jar"></project>`
+- 2000년경 아파치 재단에서 만든 Ant가 자바 빌드 자동화의 실질적인 첫 번째 표준이었습니다.
+- 예를 들어, "코드를 컴파일하고 JAR를 만들어!"라고 시키려면 아래와 같은 build.xml을 짰어야 했습니다.
+- 의존성 관리의 부재: 이게 제일 치명적입니다. 라이브러리(JAR)가 필요하면 직접 인터넷에서 다운받아 특정 폴더에 넣고, 그 경로를 XML에 또 적어야 했습니다. (나중에 이를 보완하기 위해 'Ivy'라는 도구가 나왔습니다.)
+- 절차적 방식: "A를 하고 B를 해라"라고 일일이 절차를 짜야 해서 프로젝트가 커지면 XML 파일이 수천 줄이 되기도 했습니다. (이를 'XML 지옥'이라 불렀죠.)
+- 최초의 전용 빌드 도구: Ant (앤트)
+- 컨벤션(관습)이 없음: Maven은 src/main/java라는 폴더 구조가 정해져 있지만, Ant는 폴더 이름을 my_code라고 하든 source라고 하든 상관없습니다. 대신 그 경로를 일일이 XML에 다 적어줘야 했습니다.
+- 특징: XML 기반으로 빌드 순서를 일일이 지정해줘야 했습니다. "1번 컴파일해라, 2번 JAR로 묶어라" 같은 식이죠.
+- Ant.2000
+- Ant.2000년
+- `Ant`.`2000년`
+- Ant.Xml
+- Ant
+- Build.Ant
+- BuildSystem.Ant
+- Build.BuildSystem.Ant
+- Build.98BuildSystem.Ant
+- Build.98BuildSystem.99Ant
+- Ant.Xml.Jar
+- Ant는 아주 자유롭지만, 그만큼 '불친절'했습니다.
+- Ant는 왜 "힘들다"고 하나요? (Maven/Gradle과의 차이)
+- Ant는 XML 파일을 사용합니다. 가장 큰 특징은 "무엇을 해야 할지(How) 하나부터 열까지 다 적어줘야 한다"는 점입니다.
+- Build.02Ant
+- Build.98.02Ant
+- Build.98Ant
+- Build.Ant
+- build.xml : 명령을 내리는 지도
+- Ant의 컴파일 설정 (build.xml)
+- Ant는 프로젝트 폴더에 있는 build.xml 파일을 읽어서 동작합니다.
+- 가장 핵심은 `<javac>`라는 태그를 사용하는 것이었습니다.
+- `ant compile`
+- `ant compile`-이게 터미널에서 컸던듯함.
+- `ant compile`-기존방식 `cd ...`ㆍ`javac Main.java` 이런식으로 경로들 매번가줘서 하는형태.-이런게 번거로웠던듯.
+- `ant compile`-기존방식 `cd ...`ㆍ`javac ./Main.java`
+- `ant compile`-기존방식 `cd ...`ㆍ`javac Main.java`
+- `ant compile`-기존방식 `javac src/ ... /Main.java`
+- `ant compile`-기존방식 `javac src/Main.java`
+- `ant compile`-아싸리 따로파일모아서 그냥한방에 한큐에하고자 했던것.
+- `ant compile`-한마디로 랩핑화 모듈화 덩어리화 한방화 모음화.-그리고 그통한 재사용성
+- `ant compile`-bash
+- `<javac srcdir="src" destdir="build/classes" includeantruntime="false"></javac>`
+- 재사용성: 한 번 build.xml을 잘 짜두면, 파일이 100개가 되든 1,000개가 되든 ant compile 한 번으로 끝납니다.
+- 의존성 순서 제어: * "컴파일하기 전에 항상 이전 결과물을 지워(clean)!"
+- 의존성 순서 제어: "컴파일이 끝나면 바로 압축(jar)해!"
+- 의존성 순서 제어: 이런 논리적 선후 관계를 depends="clean" 같은 속성으로 제어할 수 있었습니다
+- Classpath 자동화: lib 폴더에 있는 모든 .jar 파일을 알아서 포함하라고 설정할 수 있어서, javac -cp ... 뒤에 수십 개의 파일명을 일일이 적지 않아도 됐습니다.
+- Ant는 "어떻게(How)" 할지를 너무 자세히 적어야 했습니다.
+- 이게 귀찮아지면서 나온 것이 Maven입니다. Maven은 "그냥 src/main/java에 코드 넣어두면 내가 알아서 할게!"라는 규칙(Convention) 중심의 시대로 넘어가는 계기가 되었죠.
+- `📁/`
+- `📁AAA/`
+- `📁xxx/`
+- 결과: 개발자가 my_logic이라고 정하면 Ant는 군말 없이 그 폴더를 찾아가 컴파일했습니다. src라는 이름이 강제되지 않았던 거죠.
+- Ant 시절에도 src라는 이름은 '고정(강제)'이 아니었습니다.
+- 즉, "도구(Ant)가 강제한 것"이 아니라 "사람들 사이의 약속(관습)"으로 src가 굳어진 시기입니다.
+- Ant 시절	자유 선택	이름은 내 마음대로, 단 build.xml에 명시 필수.
+- Apache Ant
+- ApacheAnt
+- `ApacheAnt`
+- Apache Ant (1세대 빌드 도구)
+- 정체: javac 같은 도구들을 자동화하기 위해 등장한 빌드 자동화 도구입니다.
+- 방식: build.xml이라는 파일을 만들고, "먼저 컴파일하고, 그다음 파일을 옮기고, 마지막에 압축해!"라고 절차를 일일이 적어줍니다.
+- 특징: 자유도가 매우 높습니다. (시키는 건 다 함)
+- 특징: 의존성 관리 기능이 없습니다. 필요한 라이브러리(jar)를 직접 다운로드해서 프로젝트 폴더 안에 수동으로 넣어줘야 했습니다.
+- Ant는 1세대 "빌드 시스템"이라고 부릅니다.
+- Ant는 **'조리법(레시피)'**을 적어둔 메모지입니다. (칼질하고, 볶고, 담으라는 순서를 사람이 일일이 적음)
+- 1세대: Ant
+- 2000년대 초반
+- 절차 중심. 모든 단계를 직접 코딩해야 함.
+- 없음(직접 다운로드)
+- build.xml (XML)
+

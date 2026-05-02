@@ -1,0 +1,10 @@
+- Package.Dot
+- 📁Package.Dot
+- 📁Package./Dot
+- 📁Package.`/`Dot
+- `📁`Package.`/`Dot
+- `Directory`Package.`/`Dot
+- `📁Directory`Package.`/`Dot
+- `A.B.C`.`A/B/C`
+- `A.B.C`.`A/📁B/📁C`
+- `A.B.C`.`📁A/📁B/📁C`

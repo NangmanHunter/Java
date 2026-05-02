@@ -1,0 +1,7 @@
+- Comment.Post
+- CommentPost
+- PostComment
+- 댓글작성
+- Leave a comment: "댓글을 남겨주세요" (가장 권장하는 친근한 표현)
+- Add a comment: "댓글을 추가하세요"
+- Write a comment: "댓글을 작성하세요"

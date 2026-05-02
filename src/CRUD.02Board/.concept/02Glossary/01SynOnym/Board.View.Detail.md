@@ -1,0 +1,19 @@
+- Board.View.Detail
+- Board.ViewDetail
+- BoardViewDetail
+- `BoardViewDetail`
+- `ViewDetail`
+- BoardDetail
+- ViewDetail
+- Detail
+- 가장 무난하고 어디에나 어울리는 표현을 찾으신다면 단연 "View Details"를 추천합니다
+- Detailed View: '상세 보기' 화면 자체를 지칭할 때 씁니다.
+- Fetch Details: 서버에서 상세 데이터를 불러온다는 뉘앙스입니다.
+- Get Detail(s): 특정 ID를 가진 데이터의 상세 정보를 가져올 때 흔히 쓰는 API 명칭입니다.
+- More Info / See More: 좀 더 가볍고 캐주얼한 서비스에서 자주 사용합니다.
+- Retrieve Details: 데이터를 조회/검색하여 가져온다는 격식 있는 표현입니다.
+- View Details: 가장 표준적이고 깔끔한 표현입니다.
+- View Post Details: (게시글의 경우) 상세 내용을 본다는 뜻입니다.
+- 게시판상세조회
+- 게시판조회상세
+- 상세조회

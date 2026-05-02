@@ -1,0 +1,19 @@
+- '회원 탈퇴'는 Delete account 또는 Close account
+- 회원 탈퇴
+- 회원탈퇴
+- Delete account
+- Delete Account
+- DeleteAccount
+- Delete.DeleteAccount
+- delete.deleteAccount
+- Delete
+- delete
+- Close account
+- Close Account
+- CloseAccount
+- Delete Account: (계정 삭제) - 유저의 데이터를 완전히 지운다는 의미에서 가장 확실한 탈퇴 표현입니다.
+- Cancel Membership: (회원 취소) - 가입(Membership) 상태를 취소한다는 뜻으로 가장 널리 쓰입니다.
+- Close Account: (계정 폐쇄) - 은행이나 포털 사이트 등에서 계정을 정리할 때 자주 씁니다.
+- 탈퇴
+- Member.Delete
+- member.delete

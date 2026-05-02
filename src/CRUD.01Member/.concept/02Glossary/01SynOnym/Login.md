@@ -1,0 +1,24 @@
+- Log in 혹은 Sign in
+- Log in
+- Login
+- Login.LogIn
+- `Login`
+- `Login`>>`LogIn`
+- `Login`>>`LogIn`-근래
+- `Login`<<`LogIn`-종래
+- `Login`>>`LogIn`-관례
+- LogIn
+- Sign in
+- Signin
+- SignIn
+- LogIn.SignIn
+- `LogIn`.`SignIn`
+- '로그인'은 Log in 혹은 Sign in
+- Login-LogIn 여기서 더가서 아싸리 고유명사처럼 붙박이화된형태.
+- 로그인
+- 로그`인`
+- SignIn
+- Signin
+- sign-in
+- Log in / Log out: 현재 글로벌 표준에 가장 가깝습니다. 구글, 페이스북, 유튜브 등 대다수의 메이저 IT 기업들이 이 용어를 사용합니다. 직관적이고 고전적인 표현이라 사용자들에게 가장 익숙합니다.
+- Sign in / Sign out: 마이크로소프트나 애플 계정 시스템에서 주로 사용합니다. 'Log in'보다는 조금 더 격식을 차린 느낌을 주기도 합니다.

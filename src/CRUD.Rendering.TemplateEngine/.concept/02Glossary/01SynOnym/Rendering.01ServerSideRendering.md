@@ -1,0 +1,14 @@
+- ❌Clent ← ✅Server-Rendering
+- ❌Clent←✅Server-Rendering
+- ❌Clentㆍ✅Server-Rendering
+- 더 정확하게는 서버에서 실행된다고 해서 '서버 사이드 템플릿 엔진(Server-side Template Engine)'이라고 지칭해.
+- Rendering.01.SSR
+- Rendering.01ServerSideRendering
+- Rendering.01ServerSideRendering-랜더링방식을 정한후. 그다음 TemplateEngine을 정하는형태.
+- Rendering.01ServerSideRendering-엄밀히 렌더링 이라는표현이 더맞다.
+- Rendering.01SSR
+- SSR (Server Side Rendering): 템플릿 엔진을 사용. 서버(스프링)가 HTML을 다 구워버려서 브라우저에 던져줌. (JSP, 타임리프)
+- TemplateEngine.01.SSR
+- TemplateEngine.01ServerSideRendering
+- TemplateEngine.01ServerSideTemplateEngine
+- TemplateEngine.01SSR

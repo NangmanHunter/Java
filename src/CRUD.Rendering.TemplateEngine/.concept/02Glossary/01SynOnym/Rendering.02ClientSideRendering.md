@@ -1,0 +1,12 @@
+- ✅Clent ← ❌Server-Rendering
+- ✅Clent←❌Server-Rendering
+- ✅Clentㆍ❌Server-Rendering
+- CSR (Client Side Rendering): 프론트 프레임워크를 사용. 서버는 JSON 데이터만 주고, 브라우저에서 뷰(Vue)나 리액트가 화면을 그림.
+- Rendering.02.CSR
+- Rendering.02ClientSide
+- Rendering.02ClientSideRendering
+- Rendering.02CSR
+- Rendering.ClientSideRendering>>ServerSideRendering
+- Rendering.CSR>>SSR
+- Rendering.CSR>>SSR-디폴트는 CSR이다
+- Rendering.CSR>>SSR-디폴트는 CSR이다.-여기서진행이다.ㄱㄱ.

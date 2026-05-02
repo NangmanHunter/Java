@@ -1,0 +1,73 @@
+- "이 소스 파일에는 어떤 Type Declaration이 포함되어 있나?" 라고 하면 class나 interface 등을 확인하게 됩니다.
+- "직접 이름을 붙여 정의하는 타입"들만 따로 부르고 싶다면 "Top-level Types" 혹은 "Reference Type Definitions"라고 표현하는 것이 문맥상 가장 정확합니다.
+- `DeclarationReferenceType`
+- `DeclarationType`
+- 구조체타입
+- 그러고보니 참조타입 이경우에만 명세가있음. 구조체가있음.
+- 레퍼런스 타입 (Reference Type)
+- 사용자 정의 타입 (User-Defined Type)
+- 사용자정의타입
+- 선언참조타입
+- 선언타입
+- 자바 언어 명세(Java Language Specification)에서 class, interface, enum 등을 정의하는 행위나 그 본체를 부를 때 쓰는 공식적인 표현입니다.
+- 정의된참조타입
+- 정의참조타입
+- 참조타입.선언참조타입
+- 타입 선언 (Type Declaration)
+- 타입선언
+- DeclarationReferenceType
+- DeclarationType
+- DefinitionReferenceType
+- Reference Declaration Type
+- Reference Definition Type
+- Reference Type Definitions
+- ReferenceDeclarationType
+- ReferenceType.DeclarationReferenceType
+- ReferenceType.DefinedReferenceType
+- ReferenceType.UserDefinedReferenceType
+- ReferenceType.UserDefinedType
+- Top Level Declaration Type
+- Top Level DeclarationType
+- Top Level Type
+- Top Level Type Declarations
+- TopLevel DeclarationType
+- TopLevel Type
+- TopLevelDeclarationType
+- TopLevelDeclaration
+- TopLevelDeclaration.탑레벨선언
+- TopLevelType
+- `TopLevelType`
+- TopLevelReferenceType
+- TopLevelReferenceType.@interfaceㆍinterfaceㆍclass
+- `TopLevelReferenceType`
+- `TopLevelType` vs. `TopLevelReferenceType`
+- `TopLevelType`>>`TopLevelReferenceType`-경량
+- `TopLevelType`<<`TopLevelReferenceType`-직감
+- `TopLevelType`<<`TopLevelReferenceType`-규칙
+- `TopLevelReferenceType`-이게좀더 내스타일ㄱㄱ.
+- `TopLevelReferenceType`-최대한 자바명세 표현대로ㄱㄱ.
+- `TopLevelReferenceType`-일단 조어로ㄱㄱ. 이걸로ㄱㄱ.
+- ReferenceType.TopLevelReferenceType
+- ReferenceType.TopLevelReferenceType
+- 상위레벨참조타입
+- 탑레벨참조타입
+- 참조타입.상위레벨참조타입
+- 참조타입.탑레벨참조타입
+- TopLevelClassㆍTopLevelInterface
+- TopLevelClassㆍInterface
+- TopLevelType
+- `TopLevel`-자바 명세에서 쓰는표현이긴함.
+- 자바에서 public class ...와 같은 선언부 위치에 올 수 있는 모든 "타입의 종류"를 통칭하는 가장 정확한 용어는 참조 타입 선언(Reference Type Declaration)입니다.
+- 선언할 때 사용하는 키워드들 (Type Identifiers)
+- Type Identifiers
+- TypeIdentifiers
+- Type Identifier
+- TypeIdentifier
+- 타입식별자
+- 이게 구분이 너무어려우면 애매하면. 그러면 인텔리제이 여기서 class로 최초에잡아주는것 선택할수있는것 이걸로가자ㄱㄱ.-이게맞다. 이걸로 탑레벨참조타입ㄱㄱ.
+- TopLevelReferenceType.Exception지양-Exception 이거는 지양ㄱㄱ.
+- TopLevelReferenceType.Exception지양-얘는 extends로 진행함. 그냥 따로 한번에 작업위해 지원해주는 그런느낌으로 넣을것ㄱㄱ.
+- TopLevelReferenceType.Exception지양-엄밀한의미의 내가원하는 그지점에서의 그선언부 그부분이아님.
+- TopLevelReferenceType.Exception지양-더명확히 더드라이하게 잡기위해 진행ㄱㄱ.
+- 생각해보니까 extends 이런거하면서 특이적으로가면 나중에 아싸리분화해서. 아싸리 따로 `선언부` 여기로까지 옮겨와주는듯.-그러네. 이거였네. 계속진행하다보니 더최적화 더분류화 더바로처리화 더바로접근화 이렇게진행하게되는듯.
+- 그러고보니 상속 이런것도 아싸리 독립형태 클래스이긴함. 인터페이스도 같은용어 클래스로 선언불능.-결국 다같게처리하는데. 대신 선언만 다르게해놓은상태라는것. `.java`이렇게가나 선언만달라 그저 역할만 달랐을뿐이라는것. 결국 다같다.

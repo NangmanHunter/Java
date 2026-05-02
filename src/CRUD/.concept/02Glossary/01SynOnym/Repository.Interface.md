@@ -1,0 +1,3 @@
+- Repository.Interface
+- Repository.Interface-JPA경우 인터페이스로 싹다만들어준형태.
+- Repository.얘는 JPA로갈때는 인터페이스로간다.

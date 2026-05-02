@@ -1,0 +1,9 @@
+- Entity
+- Entity-클래스느낌.
+- Entity.MemberㆍBoard
+- Entity.MemberㆍBoard-딱2개
+- Entity.MemberㆍBoard-딱2개대립하는형태로.
+- Entity.`Member`>>`MemberEntity`
+- Entity.`MemberEntity`<<`Member`
+- Entity.Table명칭으로ㄱㄱ.
+- Entity.Table일대일대응

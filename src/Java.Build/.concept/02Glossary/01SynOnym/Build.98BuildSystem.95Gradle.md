@@ -1,0 +1,72 @@
+- .gradle
+- `.gradle`
+- `📄.gradle`
+- `build.gradle`
+- `Gradle`.`Groovy`
+- `Gradle`.`GroovyGradle`
+- 📄.gradle
+- 가독성: XML(pom.xml)은 코드가 너무 길고 복잡한데, Gradle은 깔끔하게 필요한 것만 적을 수 있습니다.
+- 개발 용어로서의 Groovy
+- 등장 시기: 2007~2008년쯤 처음 나왔고, 2010년대 중반부터 자바와 안드로이드의 표준으로 자리 잡았습니다.
+- 문법이 유연하고 생략이 많음. (파이썬 느낌)
+- 사용자님이 아까 보신 Gradle은 이 Maven의 장점을 다 흡수한 뒤, 더 빠르고 유연하게 만든 후계자입니다.
+- 사용자님이 처음에 보셨던 build.gradle 파일이 바로 이 Groovy 언어로 작성된 설정 파일입니다.
+- 속도: Gradle은 바뀐 부분만 계산해서 빌드하기 때문에 Maven보다 훨씬 빠릅니다.
+- 신규 프로젝트/스프링 부트/안드로이드: 거의 90% 이상 Gradle을 씁니다.
+- 예를 들어 manifest를 manifast라고 잘못 써도, 빌드를 돌려보기 전까지 IntelliJ가 빨간 줄을 안 띄워주는 경우가 많습니다. "어딘가에 이런 이름의 변수가 있겠지~" 하고 넘어가 버리거든요.
+- 예전 프로젝트에서 많이 씀.
+- 예전에는 Maven이 꽉 잡고 있었지만, 요즘은 Gradle을 훨씬 많이 씁니다.
+- 유연함의 끝판왕: 자바에서 10줄 써야 할 코드를 Groovy는 단 1~2줄로 줄여줍니다. (세미콜론 ; 생략 가능, 변수 타입 생략 가능 등)
+- 일반 Gradle
+- 자바 가상 머신(JVM) 위에서 실행되는 동적 타이핑 프로그래밍 언어입니다.
+- 자바의 친척: 자바 문법과 거의 99% 호환됩니다. 자바 코드를 그대로 복사해서 .groovy 파일에 붙여넣어도 대부분 잘 돌아갑니다.
+- 초기 Gradle: "설정 파일도 코딩하듯이 자유롭게(Groovy하게) 쓰자!" 해서 Groovy를 채택했습니다.
+- 코드가 짧고 쓰기 편함. 오래된 자료가 많음.
+- 특징: "도구(IDE)에 의존하지 말고, 어떤 환경에서든 똑같이 빌드하자!"라는 철학으로 탄생했습니다.
+- Build.94.06.Gradle
+- Build.94.06Gradle
+- Build.94.Gradle
+- Build.94Gradle
+- Build.94Gradle.01Groovy
+- Build.94Gradle.99Groovy
+- Build.94GradleGroovy
+- Build.94GroovyGradle
+- build.gradle
+- Build.Gradle
+- Build.98BuildSystem.Gradle
+- Build.98BuildSystem.95Gradle
+- Build.98BuildSystem.95Gradle + Build.97GradleDSL.99Groovy
+- `Build.98BuildSystem.95Gradle` + `Build.97GradleDSL.99Groovy`
+- DSL(Domain Specific Language)이란 '특정 영역(여기서는 빌드 설정)을 위해 만든 언어'를 뜻합니다.
+- Gradle
+- Gradle: "Maven의 장점은 가져오되, 코딩하듯 자유롭게 쓰자! (Groovy/Kotlin)" -> 현대적, 빠름, 유연함.
+- Gradle.2007
+- Gradle.2007ㆍ2008
+- Gradle.2008
+- Gradle.GradleGroovy
+- Gradle.Groovy
+- Gradle.Groovy언어
+- Gradle.GroovyGradle
+- Gradle과 Groovy의 관계
+- Gradle은 10년 전쯤 표준이 된 '현대적인 자동화 방식'입니다
+- GradleGroovy
+- Groovy (동적 타입): * 실행해보기 전까지는 오타가 났는지 알기 어렵습니다.
+- Groovy (build.gradle): 따옴표나 괄호를 대충 써도 알아듣습니다.
+- Groovy DSL (build.gradle)
+- Groovy: "이 코드가 대체 뭘 실행하는 거지?" 싶을 정도로 생략이 많아서, 남이 짠 코드를 이해하기가 가끔 난해합니다.
+- Groovy: 유연한 대신 IntelliJ가 "다음에 뭐가 올지" 예측하기 힘들어합니다. 그래서 자동 완성(Ctrl + Space)이 잘 안 뜨거나 엉뚱한 게 뜰 때가 많아요.
+- Groovy.✅RuntimeError처리
+- Groovy.❌CompileError처리.✅RuntimeError처리
+- Groovy.❌CompileError처리✅RuntimeError처리
+- Groovy.Compile시 못잡음.Runtime시 잡아줌
+- Groovy.Runtime시 잡아줌
+- Groovy.Runtime시잡아줌
+- Groovy.RuntimeError처리
+- Groovy는 "멋지다"는 뜻의 영어 단어이며, 자바의 복잡함을 덜어내고 "쿨하고 자유롭게" 코딩하기 위해 만들어진 언어입니다.
+- GroovyGradle
+- Gradle은 재료 주문부터 조리, 서빙까지 버튼 하나로 끝내는 **'스마트 팩토리'**에 가깝습니다.
+- 3세대: Gradle
+- 2012년경
+- 유연성 +성능. 코드로 로직을 짜면서도 속도가 매우빠름.
+- 최적화. Maven의 편리함에 코틀린/그루비의 유연함을 더함.
+- build.gradle (Groovy/Kotlin)

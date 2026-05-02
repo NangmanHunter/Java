@@ -1,0 +1,19 @@
+- Delete.01SoftDelete
+- Delete.SoftDelete
+- Delete.SoftDelete.Entity
+- Delete.SoftDelete.@Entity
+- Delete.SoftDelete.@Entity.@SQLDelete
+- Delete.SoftDelete.@Entity.@SQLDelete.@Where
+- Delete.SoftDelete.@Entity.@SQLDelete.@SQLRestriction
+- Delete.SoftDelete.@Entity.@SQLDelete.@Where-Deprecated
+- Delete.SoftDelete.@Entity.@SQLDelete.@Where-순서
+- Delete.SoftDelete.@Entity.@SQLDelete.@Where-논리순서
+- Delete.SoftDelete.@Entity.@Where.@SQLDelete
+- Delete.SoftDelete.@Entity.@Where.@SQLDelete-CRUD질서
+- Delete.01SoftDelete.`Entity`에서 추가형태
+- Delete.01SoftDelete.delete()ㆍ@SQLDelete
+- Delete.01SoftDelete.delete()ㆍ@SQLDeleteㆍ@Where
+- Delete.01SoftDelete.`delete()`ㆍ`@SQLDelete`ㆍ`@Where`
+- Delete.01SoftDelete.`delete()`ㆍ`@SQLDeleteㆍ@Where`
+- Delete.01.SoftDelete
+- 논리 삭제(Soft Delete)

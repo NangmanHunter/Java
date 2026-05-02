@@ -1,0 +1,11 @@
+- Post: 가장 보편적인 표현입니다. (Post a comment)
+- Submit: '제출하다'는 의미로, 폼을 작성하고 등록할 때 사용해요.
+- Publish: 블로그나 뉴스 기사처럼 조금 더 공식적으로 '발행'하는 느낌일 때 사용합니다.
+- Write
+- Post
+- Post.Create는 가변이고.Post는 불변이다.불변사랑 나라사랑ㄱㄱ.불변성 통일화ㄱㄱ.
+- Post.CRUD 여기에서 Create개념은 그래도 바꿀수있단말이야. 그러나 Post는 그럴수없음. HttpMethod Controller 여기서 애당초 Post자체를 기준으로잡음.-그러면 바뀌지않는 불변적인 이런것 기준잡아 싹진행ㄱㄱ.
+- Post.싹다 통일화해버리고. 싹최적화ㄱㄱ.
+- Post.이게 오히려 더좋은듯.
+- Create
+- Submit

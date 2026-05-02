@@ -1,0 +1,102 @@
+- .class_Compiler
+- .class-compiler
+- .class-Compiler
+- .class파일 compiler
+- .class파일-compiler
+- .classFile_compiler
+- .classFile_Compiler
+- .classFile-compiler
+- `🖥️javac`
+- `java -cp ../../ org.example.Main`
+- `java -cp ../../ org.example.Main`-현재 org\example 폴더 안에서 실행할 때
+- `javac Main.java`
+- `javac Main.java`👉`Main.class`
+- `javac Main.java`👉`Main.class`파일생성
+- `javac`
+- `javac`.`1995`
+- `javac`.1995
+- `javac`.1995년
+- `JavaC`ompile
+- 🖥️javac
+- 1995년 자바가 처음 나왔을 때, 빌드는 오직 터미널(CMD)에서 명령어를 직접 치는 방식뿐이었습니다.
+- 만약 폴더 이동이 귀찮다면, 현재 위치에서 -cp(클래스 패스) 옵션을 써서 "두 단계 위 폴더를 기준으로 찾아라"고 명령할 수도 있습니다.
+- 방식: javac Main.java -> java Main
+- 실행 (java)👉이제 컴파일된 파일을 실행합니다. 이때는 확장자(.class)를 붙이지 않는 게 규칙입니다.
+- 실행.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`
+- 실행.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+디렉토리ㆍ클래스파일접근자
+- 실행.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+디렉토리ㆍ파일접근자
+- 실행.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+자바디렉토리ㆍ클래스파일접근자
+- 실행.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+패키지ㆍ클래스파일접근자
+- 실행.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+패키지ㆍ파일접근자
+- 실행.✅`src/main/java/`ㆍ`java org.example.Main`
+- 실행.✅`src/main/java/org/example/`ㆍ`java -cp ../../ org.example.Main`
+- 실행.✅`src/main/java`ㆍ`java org.example.Main`
+- 실행.❌`src/main/java/org/example/`ㆍ`java Main.class`
+- 실행.❌`src/main/java/org/example/`ㆍ`java Main`
+- 실행.❌`src/main/java/org/example`ㆍ`java Main`
+- 실행01.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`
+- 실행01.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+디렉토리ㆍ클래스파일접근자
+- 실행01.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+디렉토리ㆍ파일접근자
+- 실행01.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+자바디렉토리ㆍ클래스파일접근자
+- 실행01.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+패키지ㆍ클래스파일접근자
+- 실행01.✅`src/main/java/`ㆍ`java 📁org.📁example.📄Main`-최상위경로+패키지ㆍ파일접근자
+- 실행01.✅`src/main/java/`ㆍ`java org.example.Main`
+- 실행01.✅`src/main/java`ㆍ`java org.example.Main`
+- 실행02.✅`src/main/java/org/example/`ㆍ`java -cp ../../ org.example.Main`
+- 자바 빌드의 진짜 조상님: javac (명령어 방식)
+- 컴파일.`javac Main.java`
+- 한계: 파일이 100개면 100번 칠 순 없으니, 유닉스의 make 같은 스크립트를 빌려 쓰곤 했습니다.
+- Build.01JavaC
+- Build.99.01JavaC
+- Build.99.javac
+- Build.99.JavaC
+- Build.99javac
+- Build.99JavaC
+- Build.99JavaC-`100-99`.`100-99=1`.바로특정됨ㄱㄱ.
+- Build.javac
+- Build.Javac
+- Build.JavaC
+- class-file-compiler
+- classfile-compiler
+- classFile-compiler
+- Java Compile
+- Java Compiler
+- java-compile
+- java-compiler
+- Java컴파일
+- Java컴파일러
+- javac
+- Javac
+- JavaC
+- JAVAC
+- javacompile
+- javaCompile
+- JavaCompile
+- javacompiler
+- javaCompiler
+- JavaCompiler
+- `JavaCompiler`
+- JAVACompiler
+- javac 시절: "폴더 이름? 네 마음대로 해!"
+- javac는 단순히 "이 파일(.java)을 기계어(.class)로 바꿔라"라는 명령어일 뿐입니다.
+- 당시의 모습: 개발자 A는 source라고 폴더를 만들고, 개발자 B는 code라고 만들었습니다. 어떤 사람은 아예 폴더 없이 프로젝트 루트에 파일을 다 때려 넣기도 했죠.
+- 불편함의 시작: 이렇게 제각각이다 보니, 남의 코드를 받으면 "자바 파일이 대체 어디 들어있는 거야?"라고 한참 찾아야 했습니다.
+- `📁`
+- `📁AAA/`
+- `📁/`
+- `📁xxx/`
+- javac 초창기: 폴더 이름 자유 (규칙 없음).
+- javac 시절	무법지대	폴더가 없어도 됨. 규칙 자체가 존재 안 함.
+- javac는 "컴파일러"
+- JavaC (The Compiler)
+- 정체: 자바 컴파일러입니다.
+- 역할: 사람이 읽는 .java 파일을 컴퓨터(JVM)가 읽는 .class 파일로 바꾸는 아주 원초적인 작업만 수행합니다.
+- 한계: 프로젝트 규모가 커져서 파일이 100개, 1000개가 되면 사람이 일일이 javac ... 명령어를 칠 수 없게 됩니다. 라이브러리 관리나 결과물 패키징(JAR 만들기) 기능도 없습니다.
+- JavaC는 요리로 치면 **'칼'**입니다. (재료를 써는 도구)
+- javac와 Ant 모두 빌드 과정에 참여하는 도구들이지만, 그 성격과 진화 단계는 조금 다릅니다. 결론부터 말씀드리면 **javac는 "컴파일러"**이고, **Ant는 1세대 "빌드 시스템"**이라고 부릅니다.
+- Compiler.JavaC
+- Compile.JavaC
+- Build.Compile.JavaC
+- Build.BuildSystem.Compile.JavaC
+- Build.99Compile.JavaC
+- Build.99Compile.99JavaC

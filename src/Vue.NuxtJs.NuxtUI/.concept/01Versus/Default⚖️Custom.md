@@ -1,0 +1,7 @@
+- Default⚖️Custom
+- default⚖️custom
+- default.vue⚖️custom.vue
+- `default.vue`⚖️`custom.vue`
+- `layouts/default.vue`⚖️`layouts/custom.vue`
+- `📁layouts/default.vue`⚖️`📁layouts/custom.vue`
+- `📁layouts/📄default.vue`⚖️`📁layouts/📄custom.vue`

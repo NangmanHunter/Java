@@ -1,0 +1,9 @@
+- navigateTo
+- navigateTo()
+- `navigateTo()`
+- `navigateTo()`.`window.location.href =`
+- `navigateTo()`.`window.location.href=`
+- `navigateTo()`.`window.location.href`
+- `navigateTo`.`window.location.href`
+- `navigateTo()`.`window.location.href=''`
+- `navigateTo(/)`.`window.location.href='/'`

@@ -1,0 +1,10 @@
+- application.yml (Hierarchical 방식)
+- 계층 구조(들여쓰기)를 사용합니다. 중복되는 키를 묶을 수 있어 훨씬 깔끔합니다.
+- 스프링 부트는 두 형식을 모두 지원하지만, 최근 추세는 가독성이 좋은 yml을 더 선호하는 편입니다.
+- application.yml
+- 계층 구조 덕분에 한눈에 파악하기 쉬움
+- key: value (들여쓰기 필수)
+- List, Map 등 복잡한 구조 표현이 활씬 쉬움
+- properties보다 우선순위가 낮음
+- application.98📄application.yml
+- application.02📄application.yml

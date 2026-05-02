@@ -1,0 +1,7 @@
+- ResponseEntity.201(Post)
+- ResponseEntity.201
+- ResponseEntity.status(HttpStatus.CREATED)
+- 201👉ResponseEntity.status(HttpStatus.CREATED)
+- 201.ResponseEntity.status(HttpStatus.CREATED)
+- 201.`ResponseEntity.status(HttpStatus.CREATED)`
+- ResponseEntity.201.`ResponseEntity.status(HttpStatus.CREATED)`

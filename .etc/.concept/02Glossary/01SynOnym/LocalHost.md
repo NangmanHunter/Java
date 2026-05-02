@@ -1,0 +1,10 @@
+- LocalHost
+- localhost
+- `localhost`
+- `localhost`.`localhost:80`
+- `localhost`.`localhost:80`.Nginx-내부설치경우
+- 왜 localhost만 치면 Nginx가 뜰까요?
+- 브라우저 주소창에 포트 번호 없이 http://localhost라고만 치면, 브라우저는 자동으로 80번 포트를 찾아갑니다. (80번은 HTTP의 기본 약속이거든요.)
+- 현재 상황: 질문자님의 컴퓨터에 Nginx가 깔려 있고, 이게 80번 포트에서 "나 살아있소!" 하고 대기 중인 겁니다.
+- Nginx가 표준인가요? 표준이라기보다는 **'업계 1위 보조 도구'**라고 보시면 됩니다. 
+- 보통 실무에서는 자바 서버(Spring Boot)를 외부에 직접 노출시키지 않습니다. 대신 Nginx를 앞에 세워두고 **"손님은 일단 Nginx가 받고, 진짜 계산 로직은 뒤에 있는 자바 서버한테 전달해!"**라는 식으로 운영합니다. 이걸 **리버스 프록시(Reverse Proxy)**라고 불러요.

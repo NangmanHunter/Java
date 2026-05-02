@@ -1,0 +1,9 @@
+- @SQLRestriction("is_deleted = false")
+- @SQLRestriction
+- SQL제한.@SQLRestriction
+- SQL제한.98@SQLRestriction
+- SQL제한.02@SQLRestriction
+- SQL제한.98.@SQLRestriction
+- `@SQLRestriction`
+- `@SQLRestriction`-최신문법
+- `@SQLRestriction("is_deleted = false")`

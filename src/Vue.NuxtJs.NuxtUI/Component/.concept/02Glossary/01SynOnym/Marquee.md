@@ -1,0 +1,2 @@
+- Marquee
+- https://ui.nuxt.com/docs/components/marquee

@@ -1,0 +1,4 @@
+- ☑️ControllerㆍEntity
+- ☑️ControllerㆍEntity.☑️EntityㆍController
+- ☑️ControllerㆍEntity>>☑️EntityㆍController-흐름
+- ☑️ControllerㆍEntity<<☑️EntityㆍController-설계

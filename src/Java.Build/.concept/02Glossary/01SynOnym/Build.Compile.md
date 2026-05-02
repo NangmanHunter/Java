@@ -1,0 +1,7 @@
+- Build.Compile
+- BuildCompile
+- Build⊃Compile
+- `Build⊃Compile`
+- `Build`⊃`Compile`
+- 범위로 따지면 빌드(Build)가 훨씬 큰 개념입니다. 
+- 결론부터 말씀드리면 **"컴파일은 빌드 과정의 핵심 단계 중 하나"**라고 이해하시면 정확합니다.

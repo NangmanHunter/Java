@@ -1,0 +1,18 @@
+- 📄application.properties
+- application.properties (Key-Value 방식)
+- 모든 설정을 한 줄씩 나열합니다. 공통된 접두사(spring.datasource)를 매번 반복해서 써야 합니다.
+- application.properties
+- `application.properties`
+- `application.properties`-단순히 properites먼저읽고. 그다음 동일한것들 배제시키는 그런구조는 아닐듯.-너무 번거로움. 너무해줘야될게많고. Run때릴때 매번다잡아줘야된다는게 매번비교해줘야된다는게 그렇게 번거롭게 불필요하게 너무도비최적적으로 너무도섬세하게 가지는않을듯.
+- `application.properties`-순서가 yml읽고 properties읽어서 누적적용시키는 그런느낌일듯함.
+- `application.properties`-이게 우선순위가 더높다. 라고는하는데.-생각해보면 먼저적용해서 날리는것보단.-기존것 yml적용하고나서. 그위에 덮어쓰기하는 그런형태라 그렇게굴러가는듯할듯함.
+- 설정이 많아지면 중복 코드가 많아
+- 지저분함
+- key=value
+- 기본적으로 문자열 위주
+- 두 파일이 같이 있으면 properties가우선
+- Application.01📄application.properties
+- Application.99📄application.properties
+- application.01📄application.properties
+- application.99📄application.properties
+- Application.application.99📄application.properties

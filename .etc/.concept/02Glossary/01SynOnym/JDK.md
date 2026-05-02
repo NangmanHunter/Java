@@ -1,0 +1,21 @@
+- JDK
+- `JDK`
+- `JDK`.여기까지 받아야한다.
+- `JDK`.여기까지 받아야한다.-최소 마지노선임.
+- `JDK`.여기까지 받아야한다.-디폴트임
+- JDK=JRE+개발도구
+- JDK=JRE+개발용도구
+- JDK까지는가야함.-컴파일러 있어야하기에 여기서 개발도구 지원해줌.
+- .java .class 이걸바꿔주는 개발용도구.-JDK여기에포함
+- JDK (Java Development Kit)
+- Java Development Kit
+- Java DevelopmentKit
+- JavaDevelopmentKit
+- 구성: JRE + 개발용 도구 (컴파일러 javac, 디버거 jdb 등).
+- 용도: 우리가 인텔리제이에서 코드를 짜고 .java를 .class로 컴파일하려면 반드시 이 JDK가 깔려 있어야 합니다.
+- $JDK = JRE + Development\ Tools$
+- 개발자라면? JDK가 반드시 필요합니다. (게임을 만들 때)
+- JDK,자바 개발 키트,요리 학원 (개발 도구 전체),"JRE + 컴파일러(javac), 디버거 등. 자바 프로그램을 만들 때 필요함."
+- JDK (Java Development Kit)
+- JDK: 그 요리법대로 요리할 수 있게 준비된 '주방 도구 세트' (컴파일러 javac, 실행기 java, 디버거 등 포함)
+- JDK는 위에서 설명한 **Java SE(표준)**를 실제로 개발자들이 컴퓨터에서 사용할 수 있도록 만든 실제 설치 프로그램입니다.

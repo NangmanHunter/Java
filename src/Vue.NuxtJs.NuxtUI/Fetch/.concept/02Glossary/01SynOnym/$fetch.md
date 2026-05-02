@@ -1,0 +1,8 @@
+- $fetch
+- `$fetch`
+- `$fetch`.`fetch`ㆍ`.json()`
+- `$fetch`=`fetch`+`.json()`
+- `$fetch` = `fetch`+`.json()`
+- `$fetch`.NuxtJs에서 Json으로 자동변환
+- 표준 fetch를 쓰면 응답을 받은 뒤에 반드시 .json()을 호출하고 await를 한 번 더 해줘야 하죠. $fetch는 응답 헤더가 application/json이면 자동으로 파싱해 줍니다.
+- 자동으로 JSON을 변환합니다 (.json() 생략)

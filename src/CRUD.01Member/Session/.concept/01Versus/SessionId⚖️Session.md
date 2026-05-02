@@ -1,0 +1,2 @@
+- SessionId⚖️Session
+- SessionId(클라이언트)⚖️Session(서버)

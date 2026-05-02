@@ -1,0 +1,3 @@
+- LinkedHashMap
+- Map.LinkedHashMap
+- LinkedHashMap: 데이터를 넣은 순서를 기억합니다.

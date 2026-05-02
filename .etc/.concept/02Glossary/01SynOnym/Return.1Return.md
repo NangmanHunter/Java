@@ -1,0 +1,11 @@
+- return.1return
+- Return.1Return
+- return 1개임. 
+- return 1개임. 유일함.
+- return 1개이나, 여러개를 묶어서 보내는형식.
+- return 1개.무조건적임.
+- return.1개
+- 1return
+- 1Return
+- 1리턴
+- 함수.모델링자체가 `=` 놓는순간 하나만나옴.-{{1}, {2}} 이런식으로 나오지는않는다는것.

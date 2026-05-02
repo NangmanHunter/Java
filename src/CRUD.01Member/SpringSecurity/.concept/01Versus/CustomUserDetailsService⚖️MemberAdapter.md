@@ -1,0 +1,7 @@
+- CustomUserDetailsService⚖️MemberAdapter
+- CustomUserDetailsService.MemberAdapter
+- CustomUserDetailsService→MemberAdapter
+- CustomUserDetailsService → MemberAdapter
+- CustomUserDetailsService(Engine)⚖️MemberAdapter(Bridge)
+- Engine⚖️Bridge
+- CustomUserDetailsService 얘가일하고. MemberAdapter 여기다 담아놓는식 그러고 필요에따라 꺼내쓰는식.

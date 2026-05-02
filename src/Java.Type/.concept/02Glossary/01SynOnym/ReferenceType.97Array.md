@@ -1,0 +1,7 @@
+- ReferenceType.97Array
+- ReferenceType.03Array
+- 배열	int[], Object[]	동일 타입의 대량 데이터 관리
+- 배열 타입 (Array Type)
+- 같은 타입의 데이터를 연속된 공간에 모아두는 타입입니다.
+- 형태: int[], String[], double[][] 등.
+- 특징: 기본 타입(int)을 담고 있더라도, 배열 변수 자체는 참조 타입입니다. 즉, 배열도 객체로 취급되어 힙(Heap) 영역에 생성됩니다.

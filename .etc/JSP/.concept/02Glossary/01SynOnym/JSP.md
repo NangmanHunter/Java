@@ -1,0 +1,11 @@
+- JSP
+- JSP.JSP
+- JSP.99JSP
+- `.jsp`
+- JSP.`.jsp`
+- JSP.`<% %>`
+- JSP.`<%%>`
+- JSP.`<% ... %>`
+- JSP 파일은 파일명 뒤에 .jsp 확장자가 붙습니다. (예: index.jsp, boardList.jsp)
+- Spring.사용자님 프로젝트가 현재 .jar 패키징 방식이라면, JSP는 실행 시 파일을 찾지 못하는 문제가 발생할 확률이 매우 높습니다. JSP를 꼭 쓰셔야 한다면 프로젝트 설정에서 Packaging을 War로 바꾸셨는지 꼭 확인해 보세요
+- Spring.Jar빌드-Jsp.War강제-여기서 충돌. 못찾음

@@ -1,0 +1,3 @@
+- Null일 때 뭐가 나오나요? 결론부터 말씀드리면, Optional 그 자체가 null이 되는 것이 아니라, "비어 있는 박스"가 나옵니다.
+- 기존 방식: 데이터가 없으면 null을 반환 → null.getName() 호출 시 NPE(NullPointerException) 발생으로 프로그램 종료.
+- Optional 방식: 데이터가 없으면 Optional.empty()(빈 박스)를 반환 → 박스에게 "데이터 있니?" 물어보거나 "없으면 이거라도 줘"라고 안전하게 대처 가능.

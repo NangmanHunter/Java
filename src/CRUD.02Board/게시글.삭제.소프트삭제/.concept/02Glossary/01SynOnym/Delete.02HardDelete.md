@@ -1,0 +1,6 @@
+- Delete.02HardDelete
+- Delete.02.HardDelete
+- Delete.HardDelete
+- Delete.02HardDelete.`delete()`
+- Delete.02HardDelete.delete()
+- 물리 삭제(Hard Delete)

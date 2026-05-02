@@ -1,0 +1,7 @@
+- `:loading`: 현재 로딩 상태인지 여부를 Boolean 값으로 전달 (앞에 :가 붙으면 JS 변수나 값을 직접 전달한다는 의미입니다)
+- Prop.Boolean
+- prop.boolean
+- BooleanProp
+- Prop.Boolean.`:ㅇㅇ`
+- Prop.Boolean.`:prop`
+- Prop.Boolean.`:ㅁㅁ`

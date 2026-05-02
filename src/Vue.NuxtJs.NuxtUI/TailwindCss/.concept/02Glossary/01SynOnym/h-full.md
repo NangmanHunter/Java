@@ -1,0 +1,4 @@
+- h-full	높이를 부모의 **100%**로 채움	height: 100%;
+- `h-full`.`height: 100%;`
+- `h-full`
+- `height: 100%;`

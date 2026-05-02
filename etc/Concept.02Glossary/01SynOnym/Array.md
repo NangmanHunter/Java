@@ -1,5 +1,0 @@
-- 배열(Array)
-- 배열
-- Array
-- arr
-- array

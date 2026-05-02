@@ -1,0 +1,4 @@
+- Map.TreeMap
+- TreeMap
+- TreeMap: 키(Key)를 기준으로 자동 정렬을 해줍니다.
+- TreeMap: 통계 데이터를 뽑거나 순서대로 나열해야 할 때 유용합니다.

@@ -1,0 +1,12 @@
+- "어떤 도구를 쓸까?"를 고민할 때는 템플릿 엔진이라는 단어를 쓰시고, "화면을 만드는 과정이나 방식"을 말할 때는 렌더링이라는 단어를 쓰시면 됩니다.
+- TemplateEngine
+- TemplateEngine.ClientSideRendering<<ServerSideRendering
+- ClientSideRendering<<ServerSideRendering-TemplateEngine
+- TemplateEngine.CCR<<SCR
+- JSP나 타임리프처럼 서버에서 데이터를 받아 화면을 완성하는 기술들을 통칭해서 '템플릿 엔진(Template Engine)'이라고 불러. 
+- TemplateEngine.JSP
+- TemplateEngine.ThymeLeaf
+- 템플릿 엔진이란? 쉽게 말해 '틀(Template)'에 '데이터'를 끼워 넣어서 새로운 문서를 만들어내는 도구야.
+- 틀 (Template): HTML 코드 (예: `<div>이름: {name}</div>`)
+- 데이터 (Data): 스프링 컨트롤러에서 보낸 값 (예: `name = "재민"`)
+- 결과물: 완성된 HTML (예: `<div>이름: 재민</div>`)

@@ -1,0 +1,8 @@
+- ReferenceType.02Interface
+- ReferenceType.98InterFace
+- ReferenceType.98Interface
+- 인터페이스	Map, List	표준 규격을 정의 (연결 고리)
+- 인터페이스 타입 (Interface Type)
+- 앞서 질문하신 Map이 바로 여기에 속합니다.
+- 종류: List, Set, Map 같은 컬렉션 프레임워크부터, 여러분이 직접 만든 인터페이스까지 포함됩니다.
+- 특징: 직접 객체를 생성할 수는 없지만, 클래스가 구현해야 할 '규격' 역할을 합니다. 다형성을 구현하는 핵심 도구입니다.

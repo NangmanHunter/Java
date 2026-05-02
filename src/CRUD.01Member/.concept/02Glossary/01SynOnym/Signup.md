@@ -1,0 +1,18 @@
+- Create an account: 말 그대로 '계정 생성'이라는 의미로 아주 흔히 쓰입니다.
+- Enroll: 학교 강의, 수강 신청, 혹은 공식적인 프로그램에 등록할 때 주로 씁니다.
+- Join: 멤버십이나 클럽, 커뮤니티에 '합류'하는 느낌일 때 사용합니다. (예: Join us!)
+- Register: 조금 더 공식적인 느낌의 '등록' 또는 '가입'입니다.
+- Sign up: 가장 널리 쓰이는 표현입니다. (동사: 가입하다 / 명사: 가입)
+- Sign up
+- Signup
+- SignUp
+- `Signup`
+- `Signup`-login처럼 LogIn여기서 점점 개념자체가 아싸리분화되서 고유명사로서 Signup 이런식으로 발전화해버리는형태로ㄱㄱ.
+- `SignUp`
+- `SignUp`.`Signup`
+- `Signup`.`SignUp`
+- `Signup`>>`SignUp`
+- `Signup`<<`SignUp`-종래
+- `Signup`>>`SignUp`-근래
+- `Signup`>>`SignUp`-관례
+- Subscribe: 유튜브나 뉴스레터처럼 '구독'을 통한 가입을 말합니다.

@@ -1,0 +1,5 @@
+- @OneToMany
+- `@OneToMany(mappedBy = "member")`
+- `OneToMany`: 한 명의 회원이 여러 개의 게시글을 가질 수 있다는 1:N 관계를 뜻합니다.
+- `mappedBy = "member"`: 이게 가장 중요합니다.👉"DB야, 내가 리스트를 가지고 있긴 한데, 사실 진짜 주인(외래키)은 Board 클래스에 있는 member라는 변수야. 그러니까 나는 그냥 읽기 전용 지름길로만 사용해줘!"라고 선언하는 겁니다.
+- @OneToMany	"나는 여러 개를 가질 수 있어" (회원 1명 : 게시글 N개)

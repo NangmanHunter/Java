@@ -1,4 +1,0 @@
-- Error.01CompileError
-- Error.01Compile
-- CompileError
-- 컴파일에러

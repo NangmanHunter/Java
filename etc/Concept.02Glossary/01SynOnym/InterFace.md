@@ -1,3 +1,0 @@
-- InterFace
-- Interface
-- 인터페이스

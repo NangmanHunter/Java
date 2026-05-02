@@ -1,0 +1,11 @@
+- 상태관리
+- 상태관리.useState
+- 상태관리.`useState`
+- 상태관리.`Pinia`.`useState`
+- 상태 관리(State Management)는 애플리케이션의 여러 컴포넌트 간에 공유되는 데이터를 효율적으로 관리하는 것을 의미합니다.
+- "어떤 데이터를 한곳에 저장해두고, 필요한 모든 곳에서 꺼내 쓰거나 수정할 수 있게 하는 시스템"입니다.
+- 상태 관리(State Management)
+- 상태 관리
+- State Management
+- StateManagement
+- StateManagement.상태관리

@@ -1,0 +1,13 @@
+- ReferenceType.01Class
+- ReferenceType.Class
+- ReferenceType.99Class
+- 02ReferenceType.01Class
+- DataType.02ReferenceType.01Class
+- DataType.02ReferenceType.99Class
+- 클래스 (Class): 가장 대표적인 것이 String입니다. (주의: String은 기본 타입이 아니라 클래스입니다!)
+- 클래스	String, Member	데이터와 기능을 하나로 묶음
+- 클래스 타입 (Class Type)
+- 가장 기본이 되며 가장 많이 쓰이는 타입입니다.
+- 사용자 정의 클래스: 여러분이 직접 class MyProject { ... }처럼 만든 모든 것들이 클래스 타입입니다.
+- 표준 클래스: 자바가 기본 제공하는 String, System, Integer 등도 여기에 해당합니다.
+- 특징: new 연산자를 통해 객체(인스턴스)를 생성하며, 상태(필드)와 동작(메소드)을 가집니다.

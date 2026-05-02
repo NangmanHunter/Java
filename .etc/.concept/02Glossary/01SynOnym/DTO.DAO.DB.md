@@ -1,0 +1,8 @@
+- DTO DAO DB
+- DTOㆍDAOㆍDB
+- DTOㆍDAO
+- DTO.DAO
+- DTO→DAO→DB
+- DTO←DAO←DB
+- DTO↔DAO↔DB
+- DAO가 DB랑 좀더붙은느낌.

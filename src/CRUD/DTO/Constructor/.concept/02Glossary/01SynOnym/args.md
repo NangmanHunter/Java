@@ -1,0 +1,9 @@
+- `public User(String name, int age) { ... }` // 여기서 name과 age가 Arguments(인자)입니다
+- **Arguments(인자/매개변수)**의 약자입니다. 프로그래밍에서 메서드나 생성자를 호출할 때 전달하는 **값**들을 의미하죠.
+- Arguments
+- Argument
+- Arg
+- arg
+- 매개변수
+- 매개인자
+- 인자

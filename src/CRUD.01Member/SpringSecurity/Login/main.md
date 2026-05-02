@@ -1,0 +1,19 @@
+## 페이지전환
+- ❌`.defaultSuccessUrl("/")` 
+  - [ ] `.defaultSuccessUrl("/")` 
+  - ❌`.defaultSuccessUrl("/")` 
+  - 로그인 성공 시 이동할 주소
+  - 이거를 Backend에서 하지말고.
+  - Front에서해라.
+  - 백엔드에서 300번대로 날리지말고. 200번대로날리고. 그다음 프론트단에서 넘기기ㄱㄱ.
+  - 페이지는 철저히 프론트단에서 진행하게 잡아줄것ㄱㄱ.
+  - `.formLogin(form -> form ... .defaultSuccessUrl("/") ... )`
+- 페이지전환.프론트>>백엔드
+- 페이지전환`navigateTo`>>`defaultSuccessUrl`
+- 페이지전환`.navigateTo`>>`.defaultSuccessUrl`
+- 페이지전환`.navigateTo()`>>`.defaultSuccessUrl()`
+- 페이지전환`.navigateTo("/")`>>`.defaultSuccessUrl("/")`
+- 페이지전환`.navigateTo('/')`>>`.defaultSuccessUrl("/")`
+- 페이지전환`.navigateTo('/board')`>>`.defaultSuccessUrl("/")`
+- 철저히 백엔드는 백엔드스럽게. 페이지전환ㄴㄴ. 페이지 아싸리 관여ㄴㄴ.
+- 예전방식이나 풀스택일때나 그렇게하고. 철저히 프론트 백엔드 나눠버릴때는 지양ㄱㄱ.

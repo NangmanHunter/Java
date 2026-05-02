@@ -1,0 +1,27 @@
+- 무인자생성자
+- 단순생성자
+- `무인자`생성자
+- `무인자생성자`
+- 무매개변수생성자
+- 인자없는생성자
+- @NoArgsConstructor (인자가 없는 생성자)
+- 역할: 파라미터가 아무것도 없는 기본 생성자를 만듭니다.
+- 왜 쓰나요?: Jackson이나 JPA 같은 프레임워크는 객체를 만들 때 일단 "빈 깡통(기본 생성자)"을 먼저 만든 뒤에 값을 채워 넣는 방식을 선호합니다. 그래서 DTO나 Entity에는 필수적으로 붙여주는 편입니다.
+- 팁: access = AccessLevel.PROTECTED 설정을 추가하면, 외부에서 new User()로 빈 객체를 만드는 실수를 방지하면서 프레임워크만 이 생성자를 쓰게 할 수 있어 안전합니다.
+- ArgsConstructor.NoArgsConstructor
+- Constructor.NoArgsConstructor
+- Constructor.@NoArgsConstructor
+- Constructor.01@NoArgsConstructor
+- `Constructor.01@NoArgsConstructor`
+- Constructor.99@NoArgsConstructor
+- Constructor.01NoArgsConstructor
+- Constructor.01.@NoArgsConstructor
+- ArgsConstructor.01@NoArgsConstructor
+- Lombok의 생성자 어노테이션 3대장👉@NoArgsConstructorㆍ@RequiredArgsConstructorㆍ@AllArgsConstructor
+- @NoArgsConstructor.`public User() { }`.`new User();`
+- 기본 생성자
+- 기본생성자
+- 파라미터가 없는 생성자
+- 파라미터가없는 생성자
+- 파라미터없는 생성자
+- 파라미터없는생성자

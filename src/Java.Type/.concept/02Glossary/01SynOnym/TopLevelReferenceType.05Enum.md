@@ -1,0 +1,6 @@
+- TopLevelReferenceType.Enum
+- TopLevelReferenceType.05Enum
+- enum
+- TopLevelReferenceType.99Enum
+- TopLevelReferenceType.Enum.enum
+- TopLevelReferenceType.Enum.`enum`

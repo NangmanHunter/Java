@@ -1,0 +1,8 @@
+- Controller.Service.Repository
+- `Controller.Service.Repository`
+- `ControllerㆍServiceㆍRepository`
+- Con.Ser.Rep
+- C.S.R
+- `CSR`.`C.S.R`.`Con.Ser.Rep`.`Controller.Service.Repository`
+- CSR
+- `Controller.Service.Repository`-이게 코어단

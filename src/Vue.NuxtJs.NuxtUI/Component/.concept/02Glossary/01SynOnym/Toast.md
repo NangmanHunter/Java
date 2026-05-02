@@ -1,0 +1,2 @@
+- Toast
+- https://ui.nuxt.com/docs/components/toast

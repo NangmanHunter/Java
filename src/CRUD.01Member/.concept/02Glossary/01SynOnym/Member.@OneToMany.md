@@ -1,0 +1,3 @@
+- 거울 (주인 아님, mappedBy 사용)
+- 리스트를 바꿔도 DB에 영향 없음
+- Member.@OneToMany

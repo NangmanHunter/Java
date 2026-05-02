@@ -1,0 +1,37 @@
+- TopLevelReferenceType.Record
+- record
+- Record
+- Record.✅`New`
+- Record.✅New
+- Record.✅New❌Setter
+- Record.✅`new`
+- Record.✅`new`❌`set`
+- Record.✅`new`❌`setAaa`
+- Record.✅`new`❌`setㅇㅇ`
+- Record.✅`new ㅇㅇ`❌`setㅇㅇ`
+- Record.✅`new ㅇㅇ()`❌`setㅇㅇ`
+- Record.✅`new ㅇㅇ(ㅇ,ㅇ, ... )`❌`setㅇㅇ`
+- Record.✅`New`연산자
+- Record.철저히 Setter못하게 만들었다.
+- Record.철저히 객체생성만 되게만들었다.
+- Record.철저히 New형태로만 되게만들었다.
+- Record.철처히 할당위해만들었다.
+- Record.철처히 객체할당위해만들었다.
+- Record.철처히 객체생성위해만들었다.
+- Type.record
+- Type.Record
+- Type.RecordType
+- Type.`Record`Type
+- `record`
+- `record`Type
+- TopLevelReferenceType.04Record
+- TopLevelReferenceType.98Record
+- TopLevelReferenceType.Record.record
+- TopLevelReferenceType.Record.`record`
+- 레코드
+- 레코드타입
+- 레코드.얘는 DTO상위화해놓은형태임
+- 레코드.DTO랑 내용은같은데.형식만 엄청축약해놓은형태.
+- 레코드.DTO랑 내용은같은데.문법만 엄청축약해놓은형태.
+- 레코드.얘는 DTO추상화해놓은형태임
+- 레코드.얘는 DTO합성관계화해놓은형태임

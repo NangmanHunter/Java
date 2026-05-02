@@ -1,0 +1,6 @@
+- https://nuxt.com/docs/4.x/directory-structure/app/layouts
+- NuxtJsDirectoryStructure.02.📁layouts／
+- NuxtJsDirectoryStructure.98.📁layouts／
+- 📁layouts／
+- 📁layouts/
+- 📁`layouts/`

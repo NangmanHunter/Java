@@ -1,0 +1,2 @@
+- Modal
+- https://ui.nuxt.com/docs/components/modal

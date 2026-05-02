@@ -1,0 +1,3 @@
+- @RequiredArgsConstructor는 **Lombok(롬복)**이라는 라이브러리에서 제공하는 어노테이션으로, **"final이 붙거나 @NonNull이 붙은 필드들을 파라미터로 받는 생성자"**를 자동으로 만들어주는 아주 편리한 도구입니다.
+- @RequiredArgsConstructor
+- @RequiredArgsConstructor.`finall`ㆍ`@NonNull`

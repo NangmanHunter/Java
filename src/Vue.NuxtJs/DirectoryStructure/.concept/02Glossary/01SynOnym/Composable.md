@@ -1,0 +1,19 @@
+- Composables
+- Composable.Composables
+- Composables.어떻게보면 공통함수 딱이거임.-함수상위화 함수전역화 함수컴포넌트화 묶어버리는격.
+- Composables.이것좀 활용좀할것.-로직들 모듈화 상당좋을듯ㄱㄱ.
+- Composable
+- Composable.로직조각
+- Composable.함수조각
+- Composables
+- Composables.컴포넌트와 다르게 로직조각.-컴포넌트는 화면조각 이런쪽이 좀더강함.
+- Composables.로직조각
+- Composables.로직컴포넌트
+- Composables.로직조각들
+- Component.Composables
+- Composables.결국 컴포넌트 큰덩어리안에서 로직만따로빼서 쏙쏙넣는 딱이형태.
+- 개념자체는 Component>>Composable
+- 개념자체는 Components>>Composables
+- Nuxt (그리고 Vue 3)에서 **Composables**는 한마디로 **"재사용 가능한 상태 관리 로직을 담은 함수"**를 의미합니다.
+- 복잡한 기능을 컴포넌트 안에 다 때려 넣는 대신, 특정 기능(예: API 호출, 다크모드 전환, 입력값 검증 등)만 따로 쏙 뽑아내서 관리하는 방식입니다.
+- 왜 'Composable'인가요? **Composition API**라는 이름에서 유래되었습니다. 레고 블록을 조립하듯이, 작은 로직 단위들을 '조립(Compose)'해서 화면을 구성한다는 철학이 담겨 있습니다.

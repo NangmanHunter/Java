@@ -1,0 +1,12 @@
+## Login
+- Body
+  - ❌RequestParam
+  - ✅RequestBody
+- RequestㆍResponse
+  - ❌DTO
+  - ✅RequestㆍResponse
+    - MemberLoginRequest
+    - MemberResponse
+      - 여기는 재사용위해 Login빼놓은듯.
+      - 규칙성살릴지. 재사용할지. 좀더고민ㄱㄱ.
+      - 결국 이름짓기싸움이다.ㄹㅇ.

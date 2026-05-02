@@ -1,0 +1,8 @@
+- NuxtDirectoryStructure
+- NuxtJsDirectoryStructure
+- NuxtDirectory
+- Directory
+- DirectoryStructure
+- ProjectStructure
+- https://nuxt.com/docs/4.x/directory-structure
+- Nuxt UI 공식 문서에는 프로젝트 구조만 따로 모아둔 페이지는 없지만, Nuxt 3 공식 문서의 "Directory Structure" 섹션을 보시면 모든 폴더의 역할을 완벽하게 파악하실 수 있습니다.

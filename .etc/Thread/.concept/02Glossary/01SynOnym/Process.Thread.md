@@ -1,0 +1,3 @@
+- Process.Thread
+- Process.Thread-대소
+- 운영체제에서 프로세스(Process)와 스레드(Thread)는 실행의 단위를 나타내지만, 자원을 공유하는 방식에서 큰 차이가 있습니다. 

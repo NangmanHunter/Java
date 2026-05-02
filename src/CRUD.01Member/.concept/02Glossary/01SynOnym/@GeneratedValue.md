@@ -1,0 +1,4 @@
+- @GeneratedValue(strategy = GenerationType.IDENTITY)
+- 의미: "ID 번호표를 내가 직접 안 매기고, DB한테 맡기겠다!"는 뜻입니다.
+- MariaDB나 H2에서 데이터를 넣을 때마다 1, 2, 3... 순서대로 번호를 자동으로 올려주는 Auto Increment 기능을 씁니다.
+- @GeneratedValue	번호표는 DB가 자동으로 1번부터 매겨줍니다.

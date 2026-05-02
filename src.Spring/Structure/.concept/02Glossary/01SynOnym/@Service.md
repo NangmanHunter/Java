@@ -1,0 +1,4 @@
+- @Service
+- @Service에서 implements 안받으면 실행x
+- @Service-interface필수구조.
+- interface.@Service

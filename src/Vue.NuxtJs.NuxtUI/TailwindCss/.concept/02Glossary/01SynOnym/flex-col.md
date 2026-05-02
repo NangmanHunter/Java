@@ -1,0 +1,4 @@
+- flex-col	자식 요소들을 세로로 쌓음	flex-direction: column;
+- `flex-col`.`flex-direction: column;`
+- `flex-col`
+- `flex-direction: column;`

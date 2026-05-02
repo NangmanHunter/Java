@@ -1,0 +1,55 @@
+- BackEnd.아싸리 따로파기ㄱㄱ
+- BackEnd는 철저히 RestAPI형태로서만 끝. 더이상ㄴㄴ.
+- Backend (Spring): 지금까지 만든 컨트롤러들을 그대로 둡니다. 다만, HTML을 직접 뿌리는 대신 JSON 데이터만 던져주는 REST API 역할만 수행하게 됩니다.
+- 책임의 분리: 백엔드(Spring)는 오직 데이터(JSON)만 주는 API 서버 역할에 집중하고, 프론트엔드(Nuxt)는 화면 구성에만 집중하는 것이 현대 웹 개발의 표준입니다.
+- BackEnd.API
+- BackEnd.APIServer
+- BackEnd.APIServer.Json
+- BackEnd.APIServer.Data.Json
+- BackEnd.API.APIServer.Data.Json
+- `BackEnd.API.APIServer.Data.Json`
+- BackEnd.APIServer.Data.Json-이렇게되버리면 엄청강력한게 `FEㆍBEㆍDB`-딱 선형적으로잡힘
+- BackEnd.APIServer.Data.Json-이렇게되버리면 엄청강력한게 `FE↔BE↔DB`-딱 선형적으로잡힘
+- BackEnd.APIServer.JsonData
+- BackEnd.DataAPIServer
+- BackEnd.DataServer
+- BackEnd.JsonDataServer
+- BackEnd.JsonServer
+- BackEnd.`Json`Server
+- BackEnd.`Json`Server-업무분장
+- BackEnd.`Json`Server-확실히나눌것ㄱㄱ.
+- BackEnd.`Json`Server-더가지도말것ㄱㄱ.
+- BackEnd.`Json`Server-영역더엄밀히ㄱㄱ.
+- BackEnd.`Json`Server-경계지점.ㄱㄱ.
+- BackEnd.Json
+- BackEnd.Json뿌리기
+- BackEnd.Json밥통
+- BackEnd.JSONDataServer
+- BackEnd.DataServer화
+- BackEnd.JsonAPIServer
+- BackEnd.RestAPI
+- BackEnd.RestAPI.@RestController
+- BackEnd.RestAPI.@RestController.Json
+- BackEnd.API.RestAPI.@RestController.Json
+- BackEnd.RestAPI.@RestController.json
+- BackEnd.RestAPI.@RestController.`json`
+- BackEnd.RestAPI.@RestController.`.json`
+- BackEnd.API
+- BackEnd.API.RestAPI
+- BackEnd.API<<RestAPI-엄밀히
+- BackEnd.API.`RestAPI`
+- BackEnd.API.`RestAPI`.Json
+- BackEnd.API.RestAPI.Json
+- BackEnd.API.Json
+- BackEnd.`API`
+- BackEnd.<<RestAPI
+- BackEnd.Controller<<RestController
+- BackEnd.RestAPI.RestController
+- BackEnd.RestAPI.RestController.Json
+- BackEnd.RestAPI.걍끝
+- BackEnd.RestAPI.걍끝.더이상ㄴㄴ.
+- 백엔드.Json
+- 백엔드.`Json`
+- 백엔드.`json`
+- 백엔드.`.json`
+- 백엔드.`Json`-업무분장

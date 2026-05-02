@@ -1,0 +1,1 @@
+- NuxtJsDirectoryStructure.03.📁components／

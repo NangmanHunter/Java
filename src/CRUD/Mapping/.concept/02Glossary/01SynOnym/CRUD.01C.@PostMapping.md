@@ -1,0 +1,15 @@
+- CRUD.C.00@PostMapping
+- CRUD.C.01@PostMapping
+- CRUD.C.01PostMapping
+- CRUD.C.PostMapping
+- CRUD.C.Mapping.PostMapping
+- CRUD.Mapping.PostMapping
+- CRUD.01.C.@PostMapping
+- CRUD.01C.@PostMapping
+- CRUD.01C.01@PostMapping
+- `CRUD.01C.01@PostMapping`
+- `CRUD.01C.01@PostMapping`.201상태코드
+- `CRUD.01C.01@PostMapping`.201StatusCode
+- `CRUD.01C.01@PostMapping`.201
+- CRUD.01C.PostMapping
+- CRUD.C.@PostMapping

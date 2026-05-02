@@ -1,0 +1,2 @@
+- 엔티티.테이블
+- Entity.Table

@@ -1,0 +1,57 @@
+- .gradle.kts
+- .kts
+- `.gradle.kts`
+- `build.gradle.kts`
+- `Kotlin` vs. `Gradle.Kotlin`
+- `Kotlin`<<`Gradle.Kotlin`-IntelliJ.GradleDSL
+- `Kotlin`>>`Gradle.Kotlin`
+- `Kotlin`>>`Gradle.Kotlin`-`.kts`
+- 📄.gradle.kts
+- 📄.kts
+- 📄`.gradle.kts`
+- 📄`.kts`
+- 결정적으로 구글(Android)과 Spring이 공식적으로 "앞으로는 코틀린 DSL을 추천합니다"라고 선언하면서 판도가 뒤집혔습니다.
+- 구글/스프링 공식 권장 (대세가 됨).
+- 문법이 엄격하고 정확함. (자바 느낌)
+- 자동 완성이 강력하고 에러를 미리 잡아줌.
+- 코틀린으로 대세가 넘어간 데에는 "유연함보다는 정확함이 관리하기 훨씬 쉽다"는 이유가 큽니다.
+- 코틀린은 IntelliJ를 만든 JetBrains에서 만든 언어입니다.
+- Android: 빌드 설정이 매우 복잡한데, Groovy로 하면 관리가 너무 힘들어서 Kotlin으로 갈아탔습니다.
+- Build.07.Kotlin
+- Build.07Kotlin
+- Build.93.07.Kotlin
+- Build.93.07Kotlin
+- Build.93Kotlin
+- build.gradle.kts
+- Gradle.Kotlin
+- Kotlin
+- Kotlin (정적 타입): * 컴파일 타임에 에러를 잡습니다. * 철자 하나만 틀려도 즉시 빨간 줄이 뜹니다. "그런 이름의 설정은 없어!"라고 바로 알려주죠. 수천 줄짜리 설정 파일에서는 이 차이가 어마어마합니다.
+- Kotlin DSL (build.gradle.kts)
+- Kotlin-`.kts`이런식으로 확장자 단독으로 잡아버림.
+- Kotlin-엄밀하게 코틀린 단독으로 보는게 맞을듯.
+- Kotlin-IntelliJ 여기서 GradleDSL 이렇게묶어있어도.-IntelliJ에서 요구하는 GUI형태이지. 실상은 다르게보는것이 맞을듯.-다르게ㄱㄱ.
+- Kotlin: 구조가 엄격해서 IntelliJ가 다음에 올 코드를 100% 정확하게 추천해 줍니다.
+- Kotlin: 코드는 조금 더 길어질 수 있지만, 형식이 정해져 있어서 누가 봐도 의도가 명확합니다. 특히 Java 개발자 입장에서는 Kotlin 문법이 훨씬 친숙하고 이해하기 쉽습니다.
+- Kotlin.✅CompileError처리
+- Kotlin.✅CompileError처리.❌RuntimeError처리
+- Kotlin.✅CompileError처리❌RuntimeError처리
+- Kotlin.✅CompileError처리❌RuntimeError처리-후딱잡아줌
+- Kotlin.✅CompileError처리❌RuntimeError처리-C에서 Rust느낌
+- Kotlin.✅CompileError처리❌RuntimeError처리-Rust느낌
+- Kotlin.Compile시 잡아줌
+- Kotlin.Compile시잡아줌
+- Kotlin.Compile시잡음
+- Kotlin.Compile잡아줌
+- Kotlin.Compile잡음
+- Kotlin.CompileError
+- Kotlin.CompileError처리
+- Spring Boot: 최신 문서와 예제들이 점점 build.gradle.kts 기준으로 작성되고 있습니다.
+- tasks.만 쳐도 사용 가능한 모든 작업 목록이 쫙 뜹니다. 설명서를 뒤적거릴 필요가 없죠.
+- Kotlin 빌드(KTS)
+- KTS는 아주 직관적인 약자입니다. 바로 Kotlin Script의 줄임말이에요.
+- Kotlin.BuildSystem<<GradleDSL
+- Kotlin.GradleDSL>>BuildSystem
+- Kotlin.GradleDSL>>BuildSystem-엄밀히
+- Kotlin.GradleDSL>>BuildSystem-좀구분해주는게 더나은듯ㄱㄱ.
+- Build.97GradleDSL.Kotlin
+- Build.97GradleDSL.98Kotlin

@@ -1,0 +1,9 @@
+- `MyInfo`
+- Account Info: '계정 정보'라는 의미로, 설정 메뉴 등에서 자주 쓰입니다. (Full name: Account Information)
+- Manage Account: 정보를 확인하고 수정까지 할 수 있는 '계정 관리' 메뉴에 주로 쓰입니다.
+- My Info
+- My Info: '내 정보'를 줄인 직관적인 표현입니다.
+- My Profile: 개인 정보를 뜻하는 가장 대중적인 표현입니다. (가장 추천!)
+- MyInfo
+- Personal Details: 이름, 연락처, 주소 등 상세한 개인 인적 사항을 확인할 때 사용합니다.
+- View Profile: '프로필 보기'라는 의미로, 조회의 행위에 집중한 표현입니다.

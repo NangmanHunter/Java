@@ -1,0 +1,5 @@
+- Component.Slot
+- component.slot
+- `component`.`slot`
+- `component`.`<slot/>`
+- `📁component`.`<slot/>`

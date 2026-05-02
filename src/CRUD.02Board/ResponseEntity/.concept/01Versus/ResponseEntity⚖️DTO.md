@@ -1,0 +1,3 @@
+- ResponseEntity⚖️DTO
+- `ResponseEntity<DTO>`⚖️`DTO`
+- `ResponseEntity`⚖️`DTO`

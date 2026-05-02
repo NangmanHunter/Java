@@ -1,0 +1,5 @@
+- HashMap	클래스	✅ 가능	Map 규칙을 실제로 구현한 도구
+- HashMap (가장 많이 사용)
+- HashMap
+- `HashMap`
+- Map.HashMap

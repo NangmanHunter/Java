@@ -1,0 +1,16 @@
+- `delete()`.`@SQLDelete`
+- `delete()`.`@SQLDelete`.`@Where`
+- `delete()`.`@SQLDelete`ㆍ`@Where`
+- `delete()`ㆍ`@SQLDelete`ㆍ`@Where`
+- `delete()`+`@SQLDelete`
+- SoftDelete=`delete()`+`@SQLDelete`
+- SoftDelete = `delete()` + `@SQLDelete`
+- `delete()` + `@SQLDelete`
+- 맞아요! 처음 보시면 "어? 그냥 SQL 직접 적는 거랑 뭐가 달라?"라고 생각하실 수 있습니다. 그런데 `@SQLDelete`의 핵심은 **'자동화'**와 **'가로채기'**에 있습니다.
+- `@SQLDelete` 이게 왜 편리한지, 그리고 실무에서 왜 쓰는지 이해하기 쉽게 풀어드릴게요.
+- **`@SQLDelete`는 "나 삭제할 거야!"라는 내 의도는 그대로 유지하면서, 실제 DB에는 "살짝 수정만 해둬~"라고 몰래 바꿔치기하는 속임수(Hooking) 장치라고 보시면 됩니다.**
+- `@SQLDelete`의 정체: "딜리트 가로채기"
+- `@SQLDelete`.Delete가로채기
+- 보통 JPA에서 데이터를 지울 때 `repository.delete(member)`를 실행하죠? 이때 JPA는 기본적으로 `DELETE FROM member WHERE id = ?`라는 쿼리를 만듭니다.
+- 하지만 엔티티 위에 `@SQLDelete`를 붙여두면, JPA가 삭제 명령을 받았을 때 **자기가 원래 날리려던 DELETE 문을 쓰레기통에 버리고, 우리가 적어준 SQL을 대신 실행**합니다.
+- **@SQLDelete 방식:** `delete()` 호출 → DB에서 특정 컬럼값 **Update** (Soft Delete)

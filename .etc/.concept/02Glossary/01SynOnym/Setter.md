@@ -1,0 +1,4 @@
+- Setter는 return이 없고(void), 값을 받아올 매개변수가 반드시 있습니다. (쓰기 전용)
+- Setter.❌return
+- Setter.❌Return
+- Setter.✅Parameter❌Return

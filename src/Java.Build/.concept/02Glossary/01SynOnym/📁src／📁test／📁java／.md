@@ -1,0 +1,12 @@
+- src/main/java	진짜 프로그램 소스 코드
+- src/test/java	코드가 잘 돌아가는지 검사하는 코드
+- src/test/java
+- `src/test/java`
+- `src/test/java/`
+- `src／test／java／`
+- `📁src／📁test／📁java／`
+- `📁src/📁test/📁java/`
+- `ｓｒｃ/ｔｅｓｔ/ｊａｖａ/`
+- `📁ｓｒｃ/📁ｔｅｓｔ/📁ｊａｖａ/`
+- `src/test/java`-이것도 Maven시절부터 나온거네.
+- `📁src/📁test/📁java/`-이것도 Maven시절부터 나온거네.

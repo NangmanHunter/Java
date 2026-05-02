@@ -1,0 +1,4 @@
+- @AuthenticationPrincipal
+- `@AuthenticationPrincipal`
+- `@AuthenticationPrincipal`.스프링시큐리티컨테스트 여기에서 꺼내는역할
+- `@AuthenticationPrincipal`.시큐리티컨테스트 여기에서 꺼내는역할

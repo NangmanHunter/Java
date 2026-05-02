@@ -1,0 +1,34 @@
+- `.project`, `.classpath`
+- `bin/`
+- `Eclipse`.`2001년11월`
+- 과거 (2000년대 ~ 2010년대 초): 이클립스의 압승. 무료이고 플러그인이 많아서 누구나 썼습니다.
+- 원래 IBM 내부에서 쓰던 수백억 원짜리 프로젝트였는데, 이걸 오픈 소스로 전 세계에 무료로 풀면서 대박이 났습니다. 당시 비싼 유료 도구를 쓰기 힘들었던 학생들과 기업들이 대거 이클립스로 몰리면서, 오랫동안 자바 IDE의 1인자 자리를 지켰습니다.
+- 이클립스 (Eclipse)
+- 이클립스: "IBM의 거대한 선물"
+- 이클립스의 .project나 .classpath 파일도 아까 보신 인텔리제이의 .iml처럼 해당 IDE에서만 통하는 설정 파일입니다
+- 파일 저장(Ctrl+S) 시 즉시
+- bin/
+- Build.04.Eclipse
+- Build.04Eclipse
+- Build.96.04Eclipse
+- Build.96.Eclipse
+- Build.96Eclipse
+- Build.Eclipse
+- Build.98BuildSystem.Eclipse
+- Build.98BuildSystem.97Eclipse
+- Eclipse	2001년 11월	IBM (현재는 이클립스 재단)	오픈 소스 (무료)
+- Eclipse.2001년
+- Eclipse.2001년11월
+- 특징: main/java 같은 중간 단계가 없습니다. 이클립스는 그냥 "src 폴더 안에 있는 건 다 소스코드야!"라고 인식합니다. 그래서 사용자님이 아까 보신 .classpath 파일에 kind="src" path="src"라고 적어두고 관리하는 거죠.
+- 이클립스 방식 (자유롭지만 내 마음대로)
+- 이클립스 순정 방식(Non-Maven)으로 프로젝트를 만들면, 기본 구조는 아주 단순합니다.
+- 구조: 프로젝트이름/src/
+- 하위 폴더: src 바로 다음에 패키지 명이 시작됩니다.
+- 예: src/org/example/Main.java
+- 이클립스 원조: src/패키지명/... (중간 단계 없음)
+- src/
+- `src/`
+- `📁src/`
+- 그런데 왜 다들 src라고 썼을까요? (관습의 힘)
+- Ant가 강제하지 않았음에도 src가 대세가 된 이유는 이클립스(Eclipse) 같은 IDE 때문입니다.
+- IDE의 기본값: 이클립스나 인텔리제이가 프로젝트를 처음 만들 때 "소스 폴더 이름은 src로 할까요?"라고 물어봤고, 대부분의 개발자가 OK를 눌렀습니다.

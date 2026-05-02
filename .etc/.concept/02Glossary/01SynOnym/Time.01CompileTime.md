@@ -1,0 +1,16 @@
+- 정적바인딩
+- 컴파일시점
+- 할당시점.컴파일시점
+- 시점.컴파일시점
+- 컴파일타임
+- `컴파일타임`
+- 컴파일
+- Compile
+- `Compile`
+- CompileTime
+- Time.CompileTime
+- Time.01CompileTime
+- `CompileTime`
+- CompileTiming
+- Compile시점
+- 컴파일시점▶️❌오버라이딩

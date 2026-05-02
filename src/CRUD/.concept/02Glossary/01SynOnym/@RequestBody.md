@@ -1,0 +1,2 @@
+- @RequestBody: HTTP 요청 몸체(Body)에 담긴 JSON 데이터를 자바 객체(Member)로 자동 변환해 줍니다.
+- @RequestBody

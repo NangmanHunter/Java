@@ -1,0 +1,15 @@
+- 단순히 객체필드값변경 알아서 @Transactional 이걸로 쭉쭉 가는형태.
+- Update.알아서 vs. save().merge()
+- Update.알아서>>save().merge()
+- 실무에서는 save()를 통한 업데이트보다, 트랜잭션 안에서 객체 값만 바꾸는 '변경 감지' 방식을 훨씬 선호합니다. merge()는 객체의 모든 필드를 갈아끼우기 때문에 위험할 수 있거든요.
+- 처음 JPA를 접하면 가장 당황스러운 지점이 바로 **`update()` 메서드가 없다는 점**이죠.
+- 이건 JPA가 데이터를 다루는 방식이 **'데이터베이스' 중심이 아니라 '자바 객체' 중심**이기 때문에 그렇습니다.
+- JPA.❌Update
+- JPA.❌Update.DirtyChecking
+- JPA.❌Update.✅DirtyChecking
+- JPA.❌Update.✅DirtyChecking 여기에일임
+- JPA.❌Update.✅DirtyChecking 여기에일임-GC느낌
+- JPA.❌Update.✅DirtyChecking여기에일임
+- JPA.❌Update.DirtyChecking이걸로알아서
+- JPA에 `update()`가 없는 이유: 변경 감지 (Dirty Checking)
+- JPA의 철학은 **"자바 객체를 마치 컬렉션(List 등)처럼 다루자"**는 것입니다. 우리가 `ArrayList`에 담긴 객체의 필드 값을 바꿀 때 따로 `list.update(obj)`를 호출하지 않는 것과 같은 이치입니다.

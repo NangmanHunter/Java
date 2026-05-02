@@ -1,0 +1,57 @@
+- Package
+- Package-철저히 java폴더 밑에일뿐이다.
+- Package.철저히 java폴더밑에다.
+- Package.철저히 java폴더밑에 디렉토리이다.
+- Package.오 Java폴더 밑에 디렉토리없음.
+- Package.역으로 Java디렉토리아니면 패키지 그런거없음.
+- Package.`Java/`하위에서만 Package잡는것 만들어줌.
+- Package.`📁Java/`하위에서만 Package잡는것 만들어줌.
+- Package.`📁java/`하위에서만 Package잡는것 만들어줌.
+- `📁Java/`.Package
+- `📁java/`.Package
+- `📁xxxx/`.Directory.`/`하위디렉토리
+- `📁java/`.Package.`.`하위디렉토리
+- `📁java/`.✅Package
+- `📁java/`.✅Package❌Directory
+- `📁java/`.❌Directory✅Package
+- `📁main/📁java/`.❌Directory✅Package
+- `📁test/📁java/`.❌Directory✅Package
+- `📁src/📁main/📁java/`.❌Directory✅Package
+- `📁src/📁test/📁java/`.❌Directory✅Package
+- `📁xxxx/`.✅Directory❌Package
+- `📁xxx/`.✅Directory❌Package
+- `📁AAA/`.✅Directory❌Package
+- `📁aaa/`.✅Directory❌Package
+- `📁일반폴더/`.✅Directory❌Package
+- Package.Java디렉토리 하위에서만 Package만드는거 있음.
+- `Package`
+- Package
+- Package.패키지
+- Package.패키지.자바폴더
+- Package.패키지.자바디렉토리.자바폴더
+- Package.Java에서의 디렉토리
+- Package.Java에서의 폴더
+- Direoctory.Package
+- Direoctory.Package(java)
+- Direoctory.Package(Java)
+- Package.Direoctory(java)
+- Package.Direoctory(Java)
+- Package.Direoctory(.java)
+- Package.Direoctory(`.java`)
+- Package.JavaDirectory
+- `Package`.Java`Directory`
+- `Package`.`JavaDirectory`
+- JavaDirectory.Package
+- JavaDirectory.`Package`
+- `JavaDirectory`.`Package`
+- Java`Directory`.`Package`
+- Package.JavaDirectory.Java파일품고있는폴더
+- Package.JavaDirectory.Java파일품고있는디렉토리
+- Package.JavaDirectory.Java파일품고있는Direcotry
+- Package.JavaDirectory.Java파일품고있는 Direcotry
+- 그냥 디렉토리인듯.
+- 그냥 디렉토리.
+- 그냥 디렉토리.자바에서 디렉토리
+- 패키지
+- 자바디렉토리
+- 패키지.자바디렉토리

@@ -1,0 +1,16 @@
+- JSP.98JSTL
+- JSTL
+- JSTL.`<c:>`
+- JSTL.`<c:ㅇㅇ>`
+- JavaServer Pages Standard Tag Library
+- `J`ava`S`erver Pages Standard `T`ag `L`ibrary
+- `J`avaServer Pages `S`tandard `T`ag `L`ibrary
+- JSTL(JavaServer Pages Standard Tag Library)은 JSP 페이지 안에서 복잡한 자바 코드(<% ... %>)를 대신하기 위해 만들어진 표준 태그 라이브러리입니다.
+- `<c:forEach var="board" items="${list}"> <tr><td>${board.title}</td></tr> </c:forEach>`
+- JSTL은 용도에 따라 몇 가지 라이브러리로 나뉘는데, 보통 **Core(c:)**를 가장 많이 씁니다.
+- JSTL.01.`<c:if>`	조건문	로그인 중이면 글쓰기 버튼 노출
+- JSTL.02.`<c:choose>`	다중 조건 (switch)	등급별로 다른 문구 노출
+- JSTL.03.`<c:forEach>`	반복문	게시판 목록 뿌리기
+- JSTL.04.`<c:set>`	변수 선언	특정 값을 변수에 담아두기
+- JSTL.05.`<fmt:formatDate>`	날짜 포맷팅	2026-04-13 20:45 처럼 예쁘게 바꾸기
+- EL(Expression Language)과 찰떡궁합👉위의 예시에서 보이는 ${board.title} 같은 문법을 EL이라고 부릅니다. JSTL은 이 EL과 함께 쓰여서 자바의 getter 호출을 아주 간단하게 만들어줍니다.

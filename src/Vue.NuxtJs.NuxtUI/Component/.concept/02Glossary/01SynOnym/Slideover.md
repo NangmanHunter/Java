@@ -1,0 +1,2 @@
+- Slideover
+- https://ui.nuxt.com/docs/components/slideover

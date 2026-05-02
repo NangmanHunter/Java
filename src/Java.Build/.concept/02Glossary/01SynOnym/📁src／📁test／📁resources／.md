@@ -1,0 +1,29 @@
+- src/test/resources는 👉 Maven이 만든 표준 구조
+- src/test/resources
+- src/test/resources/
+- `src/test/resources/`
+- `📁src/📁test/📁resources/`
+- `📁src／📁test／📁resources／`
+- `📁src／📁test／📁resources／`.✅Maven정의
+- `📁src／📁test／📁resources／`.✅Maven정의.❌IntelliJ자동생성
+- `📁src／📁test／📁resources／`.✅Maven정의.❌IntelliJ자동생성✅바로추천
+- `📁src／📁test／📁resources／`.✅Maven정의.❌IntelliJ자동생성✅IntelliJ바로추천
+- `📁ｓｒｃ／📁ｔｅｓｔ／📁ｒｅｓｏｕｒｃｅｓ／`
+- src/test/resources 구조는 Apache Maven 시절부터 이미 “표준 관례”였고,
+- Gradle은 그걸 그대로 따라간 거지 “새로 강제한 것”이 아님.
+- IDE(IntelliJ/Eclipse)의 설정 차이
+- 사용자님이 어떤 방식으로 프로젝트를 만드셨느냐에 따라 폴더가 보이고 안 보일 수 있습니다.
+- Maven 표준(Standard Directory Layout)에 src/test/resources가 포함되어 있는 것은 맞지만, 프로젝트를 처음 만들 때 이 폴더가 자동으로 생성되지 않는 경우가 많기 때문입니다.
+- src/test/resources 구조를 세상의 표준으로 만든 주인공은 Gradle이 아니라 Maven(2004년 출시)입니다.
+- src/test/resources는 2004년 Maven이 만든 표준이고, Gradle은 그 표준을 아주 잘 따르고 있는 '모범생'일 뿐입니다!
+- 실제로 IntelliJ에서 [New Project] → [Maven]을 선택하면, src/main/resources는 기본으로 생기지만, src/test/resources는 안 만들어주는 게 기본값이 맞습니다. (기본 템플릿인 maven-archetype-quickstart 등을 쓸 때 특히 그렇습니다.)
+- 왜 test/resources는 기본으로 안 만들어줄까? 이유는 단순합니다. "안 쓰는 경우가 더 많아서"입니다.
+- main/resources: 프로그램이 돌아가려면 설정 파일(DB 정보 등)이 필수인 경우가 많으니 미리 만들어줍니다.
+- test/resources: 단위 테스트를 할 때 별도의 파일(이미지, CSV 등)이 필요한 경우에만 쓰기 때문에, "필요한 사람만 직접 만들어서 써라"는 식으로 비워두는 것이 Maven의 오랜 전통입니다.
+- 인텔리제이가 "센스 있게" 처리하는 법 (수동 생성)
+- 하지만 인텔리제이는 사용자가 이 폴더를 만들려고 할 때 아주 강력한 보조 기능을 제공합니다.
+- src/test 폴더에서 우클릭 → [New] → [Directory]를 누릅니다.
+- 그러면 인텔리제이가 드롭다운 목록으로 resources를 딱 추천해 줄 겁니다.
+- 그걸 선택해서 만들면, 폴더 아이콘에 노란색 줄무늬(Test Resources Root)가 자동으로 붙으면서 "아, 여기는 테스트용 설정 폴더구나!"라고 인텔리제이가 인식합니다.
+- 인텔리제이도 Maven 기본 규칙을 따르느라 test/resources를 처음부터 만들지는 않지만, 직접 만들려고 하면 "이거 만들 거지?" 하고 추천해 주는 정도의 센스만 발휘합니다!
+- 근데 빌드자체는 gradle로 가는게맞는듯함.-Kotlin이 그위에 얹는느낌. 잡아주는것도 gradle이지 kotlin자체를 따로 놓지는않음.

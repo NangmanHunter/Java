@@ -1,0 +1,2 @@
+- ScrollArea
+- https://ui.nuxt.com/docs/components/scroll-area

@@ -1,0 +1,6 @@
+- JS.98Vue.NuxtJs
+- Vue.NuxtJs
+- NuxtJs
+- NuxtJs.DX
+- NuxtJs.UX<<DX
+- NuxtJs.UX<<DX-개발자편의 너무좋다.진심.감탄만. 이건돈줘도 된다.ㄹㅇ.ㄱㄱ.

@@ -1,0 +1,6 @@
+- @NoArgsConstructor
+- @NoArgsConstructor(access = AccessLevel.PROTECTED)
+- `@NoArgsConstructor(access = AccessLevel.PROTECTED)`
+- JPA의 규칙: JPA는 나중에 DB에서 데이터를 가져와 객체를 만들 때 매개변수가 없는 기본 생성자를 꼭 필요로 합니다.
+- 하지만 우리가 코드에서 new Member()라고 아무 데이터 없이 객체를 만드는 건 위험하죠? 그래서 외부에서는 못 쓰게 PROTECTED로 막아두고, JPA만 쓸 수 있게 배려한 설정입니다.
+- `@NoArgsConstructor(access = AccessLevel.PROTECTED)`.JPA만 접근가능

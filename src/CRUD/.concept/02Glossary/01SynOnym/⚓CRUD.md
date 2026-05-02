@@ -1,0 +1,25 @@
+- CRUD
+- CRUD.CreateReadUpdateDelete
+- CRUD.CreateㆍReadㆍUpdateㆍDelete
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.WriteㆍReadㆍUpdateㆍDelete(Board)
+- CRUD.PostㆍGetㆍPutㆍDelete
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.PostㆍGetㆍPutㆍDelete
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.`PostㆍGetㆍPutㆍDelete`
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.`PostㆍGetㆍPutㆍDelete`-Post 그냥 통일화시켜서 최적화뽑아낼수있는듯.
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.`PostㆍGetㆍPutㆍDelete`-게시글작성 댓글작성 이경우에도 Post 이런식으로감.
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.`PostㆍGetㆍPutㆍDelete`-Http method 자체도 Post이고
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.`PostㆍGetㆍPutㆍDelete`-생각보다 Post 이런쪽이 더많이쓰이는듯.
+- CRUD.CreateㆍReadㆍUpdateㆍDelete.PostㆍGetㆍPutPatchㆍDelete
+- CRUD.PostㆍGetㆍPutPatchㆍDelete
+- PostㆍGetㆍPutPatchㆍDelete
+- GetㆍPostㆍPutPatchㆍDelete.PostㆍGetㆍPutPatchㆍDelete
+- GetㆍPostㆍPutPatchㆍDelete>>PostㆍGetㆍPutPatchㆍDelete-초기
+- GetㆍPostㆍPutPatchㆍDelete>>PostㆍGetㆍPutPatchㆍDelete-종래
+- GetㆍPostㆍPutPatchㆍDelete<<PostㆍGetㆍPutPatchㆍDelete-후기
+- GetㆍPostㆍPutPatchㆍDelete<<PostㆍGetㆍPutPatchㆍDelete-근래
+- GetㆍPostㆍPutPatchㆍDelete<<PostㆍGetㆍPutPatchㆍDelete-작업용이성
+- CRUD.JPA조차 CRUDRepository
+- `CRUD`.`CreateㆍReadㆍUpdateㆍDelete`.`PostㆍGetㆍPutㆍDelete`
+- `CRUD`.`Create.Read.Update.Delete`.`Post.Get.Put.Delete`
+- `CRUD`.`Create.Read.Update.Delete`.`Post.Get.PutPatch.Delete`
+- `CRUD`.`Create.Read.Update.Delete`.`Post.Get.PutㆍPatch.Delete`

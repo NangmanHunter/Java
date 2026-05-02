@@ -1,0 +1,5 @@
+- NuxtUI>>Nuxt
+- NuxtUITemplate>>NuxtUI>>Nuxt
+- NuxtUITemplate>>NuxtUI>>NuxtTemplate>>Nuxt
+- `NuxtUITemplate`>>`NuxtUI`>>`NuxtTemplate`>>`Nuxt`
+- `NuxtUI.Template`>>`NuxtUI`>>`Nuxt.Template`>>`Nuxt`

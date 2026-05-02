@@ -1,0 +1,11 @@
+- src/main/resources	이미지, 설정값, DB 정보 (자바 코드가 아닌 것)
+- src/main/resources
+- `src/main/resources`
+- `src/main/resources/`
+- `📁src/📁main/📁resources/`
+- `📁src/📁main/📁resources/`
+- `📁src／📁main／📁resources／`
+- `src／main／resources／`
+- `ｓｒｃ／ｍａｉｎ／ｒｅｓｏｕｒｃｅｓ／`
+- `src/main/resources`-이것도 Maven시절부터 나온것.
+- `📁src/📁main/📁resources/`-이것도 Maven시절부터 나온것.

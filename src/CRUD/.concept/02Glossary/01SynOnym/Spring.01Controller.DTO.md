@@ -1,0 +1,15 @@
+- DTO (Data Transfer Object)
+- "데이터 배달 가방"
+- 계층 간(Controller ↔ Service ↔ Repository) 데이터 교환을 위해 사용하는 객체입니다.
+- 역할: 데이터를 한꺼번에 묶어서 전달하며, 로직을 갖지 않는 순수한 데이터 객체입니다.
+- 특징: 보안: DB 테이블 구조(Entity)를 그대로 클라이언트에 노출하지 않고, 필요한 데이터만 골라서 보낼 수 있습니다.
+- 특징: 유연성: API 스펙이 변해도 DB 구조를 바꿀 필요 없이 DTO만 수정하면 됩니다.
+- 특징: 주로 getter, setter 메소드(또는 Java 14+의 record)만 포함합니다.
+- DTO (Data Transfer Object)
+- 계층 간 데이터 전송
+- Getter / Setter (데이터 담기)
+- 모든 계층 간 이동
+- Java Record, VO(경우에 따라)
+- DTO
+- Spring.01Controller.DTO
+- DTO.약간짬통느낌

@@ -1,0 +1,8 @@
+- ResponseEntity.200
+- ResponseEntity.200(Get)
+- ResponseEntity.200(Read)
+- ResponseEntity.200(ReadㆍUpdate)
+- ResponseEntity.status(HttpStatus.OK)
+- 200👉ResponseEntity.status(HttpStatus.OK)
+- 200.`ResponseEntity.status(HttpStatus.OK)`
+- ResponseEntity.200.`ResponseEntity.status(HttpStatus.OK)`

@@ -1,0 +1,18 @@
+- `/api/login`
+- `/api/login`.괜찮긴한데 완연최적은ㄴㄴ.
+- 이게 확실히 `api` 이부분 양보치말자ㄹㅇ.
+- 이게 오히려있는게 명확해서 더좋음.
+- 간단하면 그냥 `/login` 그런거지만. 명확고자하면 `/api/login` 이게더맞거든.
+- 생각해보니 이게 Page주소랑 겹쳐버림. 그래서 구분어렵고 구분불능. 그통한 바로직감성 너무떨어짐.
+- 최적화위해 직감력극화위해 중간개념 `/api` 이것달아 모든것시작ㄱㄱ. 이게맞다ㄹㅇ.ㄱㄱ.
+- Url주소라는 사소한것도 명확히지정해주어 아싸리 질서화 잡아줄것ㄱㄱ. 이게맞다.
+- 컨트롤러도 `/api` 이렇게있는게 더명확하듯.
+- `/api`.컨트롤러
+- 컨트롤러.`/api`
+- 컨트롤러.`/api`-확실히 이쪽이다.
+- 이런식으로 다잡아줄것ㄱㄱ.
+- `/api/login`>>`/member/login`>>`/member/login-proc`
+- `/login`<<`/api/login`>>`/member/login`>>`/member/login-proc`
+- `/login` << `/api/login`>>`/member/login`>>`/member/login-proc`
+- `/login` << `/api/login` >> `/member/login` >> `/member/login-proc`
+-  **`/api/login`**: 경로를 최대한 단순화할 때 사용합니다.

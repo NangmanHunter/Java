@@ -1,0 +1,12 @@
+- Spring 환경에서는 org.springframework.transaction.annotation.Transactional을 사용하는 것이 표준입니다.
+- @Transactional
+- `@Transactional`
+- `@Transactional`.`org.springframework.transaction.annotation`
+- `@Transactional`.✅`org.springframework.transaction.annotation`
+- `@Transactional`.✅`org.springframework.transaction.annotation`-매우 다양함 (격리 수준, 타임아웃 등)
+- `@Transactional`.✅`org.springframework.transaction.annotation`-Spring 1.2부터 존재 (역사가 깊음)
+- `@Transactional`.❌`jakarta.transaction`
+- `@Transactional`.❌`jakarta.transaction`-Java EE 7 (CDI 1.1)부터 도입
+- `@Transactional`.❌`jakarta.transaction`-jakarta.transaction (구 javax.transaction)
+- `@Transactional`.❌`jakarta.transaction`-JTA
+- @Transactional (기본값은 readOnly = false)

@@ -1,0 +1,41 @@
+- 📁pages.📁layouts.📁components
+- 📁pages.📁layouts.📁components-대소
+- 📁pages/.📁layouts/.📁components/
+- 📁pages/.📁layouts/.📁components/-대소
+- `📁pages/.📁layouts/.📁components/`-대소
+- `📁pages/.📁layouts/.📁components/`-대중소
+- `📁pages/`.`📁layouts/`.`📁components/`-대중소
+- `📁pages/`.`📁layouts/`.`📁components/`-대소
+- 📁pages／.📁layouts／.📁components／
+- `📁pages／.📁layouts／.📁components／`.`📁layouts／.📁pages／.📁components／`
+- `📁pages／.📁layouts／.📁components／`
+- `📁pages／(1).📁layouts／(2).📁components／(3)`.`📁pages／(3).📁layouts／(1).📁components／(2)`-이거는 레이아웃에다 컴포넌트 정의한경우를 상정했을때 그렇게감.
+- `📁pages／(1).📁layouts／(2).📁components／(3)`.`📁pages／(3).📁layouts／(1).📁components／(2)`-답은없지만 나름의답을 만들었던부분인듯하다.
+- `📁pages／(1).📁layouts／(2).📁components／(3)`.`📁pages／(3).📁layouts／(1).📁components／(2)`-이게 되게이상한것보단.이양반들이 이사람들이 잡아다 어떻게 처리해주냐. 그런 함수만들어갖고 진행한것이기에. 더그런듯.
+- `📁pages／(1).📁layouts／(2).📁components／(3)`.`📁pages／(3).📁layouts／(1).📁components／(2)`-안에 Slot개념넣다보니 이렇게간듯함.
+- `📁pages／.📁layouts／.📁components／`-개념을계속분화하다보니 layout-component-page 이렇게간듯.
+- `📁pages／.📁layouts／.📁components／`-이기준으로 잡아서보면. layout으로 싹다몰아다 진행하는격인듯.
+- `📁layouts／.📁pages／.📁components／`
+- `📁layouts／.📁pages／.📁components／`-애당초에 Slot이라는걸 넣어줄때 이런규격이 좀더맞는듯.
+- `📁layouts／.📁pages／`.`📁layouts／.📁components／`-이게 Slot기준으로 이런식으로감. 
+- `📁layouts／.📁pages／`.`📁layouts／.📁components／`-사실최종적인건 layout이긴함
+- `📁layouts／.📁pages／ㆍ📁components／`-이런식이 좀더맞다.
+- 📁layouts／.📁pages／.📁components／
+- 📁layouts／.📁pages／.📁components／-실제크기자체
+- 📁layouts／.📁pages／.📁components／-개념자체
+- 📁layouts／.📁pages／.📁components／-개념구성자체
+- 📁layouts／.📁pages／.📁components／-로직구성자체
+- 📁layouts／.📁pages／.📁components／-코드구성자체
+- 📁layouts／.📁components／.📁pages／-감싸지는형태기준
+- `📁layouts／`.`📁components／`.`📁pages／`-감싸지는형태기준
+- `📁layouts／`(f₂).`📁components／`(f₁).`📁pages／`(x)-`f₂ㆍf₁(x)`
+- `📁layouts／`(f₂).`📁components／`(f₁).`📁pages／`(x)-`f₂(f₁(x))`
+- 아... 아니다. Slot은 그냥 전달함수 그이상이하도아니다.-Pages에서 Component끌어다가 Slot넣어버리면 Pages가 더커져버림.
+- 결국 쓰기나름이다. Slot은 가리키는대상이 디렉토리마다 다를뿐이다.-근데 좀다르긴하다.
+- 레이아웃슬롯은 pages 바로갖고오나. 컴포넌트슬롯 이부분은 컴포넌트정의한태그에서 여기서 작성한부분으로 더단위적으로감.-확실히 컴포넌트 이쪽 슬롯이 더유동적임.
+- 레이아웃슬롯.고정적-컴포넌트슬롯.유동적-이게 생각보다 결이좀 다르다.
+- 레이아웃슬롯.페이지스에서정의
+- 레이아웃슬롯ㆍ컴포넌트슬롯-결국 정의되는시점에따라 대소비교 혼선왔던것. 실상은 그냥 각함수마다 각상황마다 그저 다르게 가져갔을뿐임. 그이상그이하도아님. 걍끝.
+- 레이아웃슬롯.페이지스에서정의-여기는 무조건 무지성 붙박이형으로 들어오는형태.
+- 컴포넌트슬롯.컴포넌트쓰는시점에서정의
+- 컴포넌트슬롯.컴포넌트쓰는시점에서정의-더유동적이고 더가변적 더자유로움.

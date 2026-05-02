@@ -1,0 +1,7 @@
+- @RequestParam: URL 뒤에 붙는 파라미터(?loginId=test)를 읽어올 때 씁니다.
+- @RequestParam
+- @RequestParam.RequestLine
+- @RequestParam.✅RequestLineㆍ❌RequestHeaderㆍ❌RequestBody
+- @RequestParam.✅`Url.QueryString`ㆍ✅`Body.FormData`
+- @RequestParam.✅`Url.QueryString`ㆍ✅`Body.FormData`-둘다됨.
+- 아마 최초만들때 Url여기로가다가. Body이쪽으로갔는데.-Json까지는 가지말고. 아싸리 Json은 그러면 RequestBody 이걸로 만들어줘버린느낌.

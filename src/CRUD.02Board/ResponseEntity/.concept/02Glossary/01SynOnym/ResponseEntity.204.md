@@ -1,0 +1,7 @@
+- ResponseEntity.204
+- ResponseEntity.204(Delete)
+- ResponseEntity.status(HttpStatus.NO_CONTENT)
+- 204👉ResponseEntity.status(HttpStatus.NO_CONTENT)
+- 204.ResponseEntity.status(HttpStatus.NO_CONTENT)
+- 204.`ResponseEntity.status(HttpStatus.NO_CONTENT)`
+- ResponseEntity.204.`ResponseEntity.status(HttpStatus.NO_CONTENT)`

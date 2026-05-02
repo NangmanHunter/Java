@@ -1,0 +1,3 @@
+- `items-center`는 CSS 속성인 `align-items: center;`를 Tailwind CSS 방식으로 줄여놓은 것입니다.
+- `items-center`.`align-items: center;`
+- `items-center`.`align-items: center;`-flex기준 수직정렬

@@ -1,0 +1,4 @@
+- Parameter
+- ParaMeter
+- 매개변수
+- 정의역

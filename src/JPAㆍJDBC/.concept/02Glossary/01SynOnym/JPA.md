@@ -1,0 +1,9 @@
+- JPA
+- JPA(근래).MyBatisMaper(종래)
+- JPA.작업할부분 Service 이쪽부분으로몰림
+- JPA.ControllerㆍService 이쪽부분으로몰림
+- JPA.ControllerㆍService-이쪽부분으로몰림
+- JPA.ControllerㆍService 사실상 이두부분만 작업하는형태.
+- JPA.ControllerㆍService 사실상 이두부분만 작업공간형태.
+- JPA.철저히 Service 이쪽에 모든작업들 다만들기위한형태
+- JPA.Repository를 사실상자동화 만든형태

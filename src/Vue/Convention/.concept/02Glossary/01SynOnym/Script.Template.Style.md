@@ -1,0 +1,6 @@
+- `Script.Template.Style`
+- 스크립트.템플릿.스타일
+- `스크립트.템플릿.스타일`
+- Script.Template.Style
+- `script.template.style`
+- `<script>.<template>.<style>`

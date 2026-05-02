@@ -1,0 +1,13 @@
+- 세트로 따라오는 친구: `@Where`
+- `@SQLDelete`로 데이터가 실제로 안 지워지고 `is_deleted = true` 상태로 남아있게 되면, 나중에 데이터를 조회할 때 문제가 생깁니다. 삭제된 데이터까지 다 나와버리니까요.
+- 이때 `@Where(clause = "is_deleted = false")`를 엔티티에 같이 붙여주면, **모든 `select` 쿼리에 이 조건이 자동으로 붙습니다.** 개발자가 신경 쓰지 않아도 "삭제 안 된 데이터"만 쏙쏙 골라오게 되죠.
+- @SQLDelete.@Where
+- @SQLDelete@Where
+- @SQLDeleteㆍ@Where
+- @Where
+- SQL제한.@Where
+- SQL제한.@Where-Deprecated
+- SQL제한.01@Where
+- SQL제한.01.@Where
+- SQL제한.99.@Where
+- SQL제한.99@Where

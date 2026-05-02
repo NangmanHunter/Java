@@ -1,0 +1,9 @@
+- ReferenceType.96Enum
+- ReferenceType.04Enum
+- ReferenceType.Enum
+- ReferenceType.Enum-얘도 엄밀히는 클래스임.
+- 열거형	Color, Status	한정된 선택지(상수) 정의
+- 열거 타입 (Enum Type)
+- 정해진 상수 값들의 집합을 정의할 때 사용합니다.
+- 예시: enum Week { MONDAY, TUESDAY, ... }
+- 특징: 관련 있는 상수들을 안전하게 관리할 수 있게 해줍니다. 단순 숫자로 관리하는 것보다 가독성과 안정성이 훨씬 높습니다.

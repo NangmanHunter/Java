@@ -1,0 +1,14 @@
+- DAO
+- Data Access Object
+- DAO (Data Access Object)
+- "데이터베이스 전담 비서"
+- 데이터베이스(DB)의 data에 접근하기 위한 객체입니다. 실제로 DB에 접속해서 데이터를 삽입, 삭제, 조회하는 등의 CRUD 작업을 수행합니다.
+- 역할: DB 로직과 비즈니스 로직을 분리하기 위해 사용합니다.
+- 특징: * 직접 SQL을 실행하거나 JPA의 Repository처럼 DB 인터페이스 역할을 합니다.
+- 비즈니스 로직(Service 계층)에서 DB에 어떻게 접근하는지 몰라도 되게끔 캡슐화합니다.
+- Spring Data JPA에서는 보통 Repository가 이 역할을 대신합니다.
+- DAO (Data Access Object)
+- DB 접근 및 조작 (CRUD)
+- SQL 실행, DB 연결 등
+- Persistence(데이터 접근) 계층
+- Spring Data JPA의 Repository

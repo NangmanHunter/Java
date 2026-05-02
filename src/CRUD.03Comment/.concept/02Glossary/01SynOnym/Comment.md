@@ -1,0 +1,16 @@
+- Comment
+- Board.Comment
+- `Board.Comment`
+- `Board`.`Comment`
+- `Comment`
+- Comment.Reply
+- 댓글
+- 일반적으로 우리가 웹사이트나 SNS에서 사용하는 '댓글'은 영어로 Comment라고 합니다.
+- Comment: 가장 보편적인 '댓글'. (동사로 '댓글을 달다'도 가능)
+- Reply: '답글' 또는 '대댓글'. 특정 댓글에 다시 댓글을 달 때 주로 사용합니다.
+- Feedback: 블로그나 포트폴리오 등에 남기는 '의견'이나 '피드백' 성격의 댓글.
+- Mention: SNS에서 @아이디를 통해 특정 사람을 언급하는 경우.
+- Add a comment: 댓글 달기
+- Leave a comment: 댓글을 남기다
+- Delete/Edit a comment: 댓글 삭제/수정
+- Nested comments: 대댓글 (계층형 댓글)

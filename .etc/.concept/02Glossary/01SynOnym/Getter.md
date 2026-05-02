@@ -1,0 +1,2 @@
+- Getter는 return이 있고 매개변수가 거의 없습니다. (읽기 전용)
+- Getter.❌Parameter✅Return

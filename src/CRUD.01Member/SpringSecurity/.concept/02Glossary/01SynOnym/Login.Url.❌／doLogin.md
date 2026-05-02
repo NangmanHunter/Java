@@ -1,0 +1,5 @@
+- ❌**`/doLogin`**: 예전 전자정부 프레임워크나 전통적인 스프링 환경에서 자주 보이던 방식입니다. (요즘은 조금 올드한 느낌이 있습니다.)
+- Login.Url.❌`/doLogin`
+- Login.Url.❌/doLogin
+- Login.Url.❌`／doLogin`
+- Login.Url.❌／doLogin
