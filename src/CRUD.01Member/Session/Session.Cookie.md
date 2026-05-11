@@ -1,7 +1,13 @@
 ##
-Session.Cookie
-Session.Cookie에다 붙여서던짐.
-한번붙여놓으면.브라우저에서 계속붙여다 날라옴.
+- Session.Cookie
+- Session.Cookie통해전달
+- SessionId.Cookie통해전달
+- SessionId.Cookie통해전달-엄밀히 SessionId
+- SessionId.Cookie통해전달-엄밀히 ✅SessionId
+- SessionId.Cookie통해전달-엄밀히 ❌Session
+- Session.Cookie에다 붙여서던짐.
+- 한번붙여놓으면.브라우저에서 계속붙여다 날라옴.
+
 
 
 ##

@@ -1,0 +1,17 @@
+- Architecture.04ReverseProxy
+- Architecture.ReverseProxy
+- Architecture.RP
+- ReverseProxy
+- 리버스 프록시 (Reverse Proxy): 가장 일반적인 명칭입니다. 클라이언트와 서버 사이에서 중계 역할을 하며 보안과 성능을 책임집니다.
+- 로드 밸런서 (Load Balancer): 만약 프런트엔드 서버가 여러 대라면, Nginx가 요청을 골고루 분산해주기 때문에 이렇게 부릅니다.
+- 웹 서버 (Web Server): index.html 같은 정적 자원을 Nginx가 직접 갖고 있다가 뿌려주는 역할에 집중할 때 부르는 명칭입니다.
+- 게이트웨이 (Gateway): 외부 네트워크에서 내부 네트워크로 들어오는 '관문' 역할을 한다는 뜻에서 쓰입니다.
+- Nginx를 가장 앞단에 두는 구성은 보통 웹 서버(Web Server) 또는 리버스 프록시(Reverse Proxy)라고 부릅니다.
+- 지금 대화 맥락인 "프런트엔드 서버(Next.js 등)"와 "백엔드 서버" 관계에 Nginx가 추가되면, 이를 "Nginx 리버스 프록시를 활용한 3-Tier(또는 Multi-tier) 아키텍처"라고 부르는 것이 가장 정확합니다.
+- Nginx 리버스 프록시를 활용한 3-Tier(또는 Multi-tier) 아키텍처
+- 잘생각해보면 ClientㆍNginxㆍFrontEndㆍBackEnd 이구조는 필요가없음.-뭐하러 FrontEnd앞에 Nginx를 왜 하나더두냐 이거임. 전혀필요없음.
+- 잘생각해보면 ClientㆍNginxㆍFrontEndㆍBackEnd 이구조는 필요가없음.-오 진짜 전혀필요없네ㄹㅇ.
+- ReverseProxy.❌`ClientㆍNginxㆍFrontEndㆍBackEnd`
+- ReverseProxy.✅`ClientㆍNginxㆍFrontEnd`ㆍ`ClientㆍNginxㆍBackEnd`
+- ReverseProxy.✅`ClientㆍNginxㆍFrontEnd`ㆍ`ClientㆍNginxㆍBackEnd`-더가서 FrontEndㆍBackEnd 완연분리ㄱㄱ. 
+- ReverseProxy.✅`ClientㆍNginxㆍFrontEnd`ㆍ`ClientㆍNginxㆍBackEnd`-역할분리통한 영역특정 책임특정 책임분리. 그리고 모듈화. 모듈화통한 최적화ㄱㄱ.

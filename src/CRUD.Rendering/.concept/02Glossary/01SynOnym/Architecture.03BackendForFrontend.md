@@ -1,0 +1,44 @@
+- BFF (Backend For Frontend) 패턴이거나, 단순히 프런트엔드 서버(SSR 서버)를 앞단에 둔 구조라고 부릅니다.
+- FrontSSR
+- BFF (Backend For Frontend)
+- BFF
+- Backend For Frontend
+- BackendForFrontend
+- BFF.BackendForFrontend
+- Architecture.BFF.BackendForFrontend
+- Architecture.03BFF.03BackendForFrontend
+- Architecture.03BFF
+- Architecture.03BackendForFrontend
+- FrontEndSSR
+- SSR.FrontEnd
+- BFF (Backend For Frontend): 프런트엔드 서버가 단순히 화면만 그리는 게 아니라, 여러 백엔드 API를 하나로 합치거나 프런트엔드에 맞게 데이터를 가공하는 역할을 겸할 때 이 용어를 씁니다. "프런트엔드를 위한 전용 백엔드"라는 뜻입니다.
+- 3-Tier Architecture (3계층 구조): 조금 더 전통적인 네트워크 관점에서는 클라이언트 - 프런트엔드(Web) - 백엔드(WAS/API)로 나누는 이 방식을 3계층 구조의 변형으로 보기도 합니다.
+- Proxy(프록시) 구조: 프런트엔드 서버가 사용자의 요청을 대신 받아서 백엔드에 전달해 주는 통로 역할을 할 때 "프런트엔드 서버를 프록시로 쓴다"라고도 표현합니다.
+- "프런트엔드 서버(Next.js 등)를 앞에 두고 백엔드 API 서버를 뒤에 두는 구조는 SSR을 구현하기 위한 전형적인 아키텍처이며, 프런트엔드 서버의 역할에 따라 BFF 패턴이라고 부르기도 합니다."
+- 네트워크나 인프라 관점에서 보면 프런트엔드 서버는 리버스 프록시(Reverse Proxy)의 역할을 수행하고 있다고 봐도 무방합니다.
+- 사용자 입장에서 "내가 요청한 녀석이 직접 답을 주는 줄 알았는데, 알고 보니 뒤에 있는 애한테 물어보고 전해주는 거였네?"라는 상황이 성립하므로, 프런트엔드 서버를 리버스 프록시라고 부르는 것은 매우 적절한 표현입니다.
+- ClientㆍFEㆍBE
+- ClientㆍFrontEndㆍBackEnd
+- ClientㆍFrontEndServerㆍBackEndServer
+- ClientㆍFrontendServerㆍBackendServer
+- Client→FrontendServer→BackendServer
+- Client → FrontendServer → BackendServer
+- Client ← FrontendServer ← BackendServer
+- `Client → FrontendServer → BackendServer`
+- `Client ← FrontendServer ← BackendServer`
+- ClientㆍFrontendServer(Client기준 Proxy)ㆍBackendServer
+- ClientㆍFrontendServer(BackendServerr기준 ReverseProxy)ㆍBackendServer
+- BFF 서버
+- BFF서버
+- Rendering.01SSR.FrontEnd
+- 3세대: "프런트엔드 서버의 탄생" (Modern SSR / BFF)
+- "프런트 서버가 앞단에 있는 건 BFF 개념 아닌가요?"** **맞습니다.** 역할에 따라 부르는 이름이 다를 뿐입니다.
+- **SSR:** "서버에서 HTML을 만든다"는 **동작/기능**에 초점을 맞춘 용어.
+- **BFF:** "프런트엔드를 위해 API를 최적화하고 중계한다"는 **아키텍처/역할**에 초점을 맞춘 용어.
+- 즉, **Next.js 서버는 SSR을 수행하면서 동시에 BFF 역할(리버스 프록시 포함)을 수행**하고 있는 것입니다.
+- **화면을 만드는 로직이 고도화되면서 그 부분만 똑 떼어내어 '프런트엔드 서버'가 전담**하게 된 것입니다. 
+- 그래서 지금은 **"백엔드 API 서버를 뒤에 숨기고(리버스 프록시), 프런트엔드 서버(BFF)가 앞에서 화면을 구워서(SSR) 내보내는 구조"**가 현대적인 표준 아키텍처로 자리 잡은 것이죠. 
+- 3세대: "프런트엔드 서버의 탄생" (Modern SSR / BFF)
+- 그런데 CSR은 SEO(검색 엔진 최적화)에 취약하고 첫 화면이 느리다는 단점이 있었습니다. 이를 해결하기 위해 **"프런트엔드 개발 언어(Node.js)로 돌아가는 렌더링 전용 서버"**를 백엔드 앞에 두게 되는데, 이것이 지금 우리가 말하는 **Next.js** 같은 프런트엔드 서버입니다.
+* **구조:** `브라우저 <---> 프런트엔드 서버(Node.js) <---> 백엔드 API 서버`
+* **이때의 SSR:** 프런트엔드 서버가 백엔드에서 데이터를 받아와서 HTML을 만드는 행위.

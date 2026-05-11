@@ -1,0 +1,11 @@
+## h함수
+- h함수.vue기계어적인형태
+- h함수.vue엔진언어적형태
+- h함수.Dom구조에서 따와서 이형태가 사실상표준형태인듯.
+- h함수.아... 이게 완전 로우적형태로 진행하고. 그위에 template 이거로 사람들한테 좀더편하게 제공하게 만든게 이양반임. 에반유
+- template.h함수
+- template.h함수.Dom
+- `template`.`h함수`.`Dom`
+- `template`.`h함수`(Vue).`Dom`
+- `template`.`h함수`(Vue).`Dom`(Browser)
+- `template`.`h함수`.`Dom생성규칙`

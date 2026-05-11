@@ -1,0 +1,17 @@
+- Build
+- Java.Build
+- JavaBuild
+- `Build`
+- 자바에서는 Build기준단위
+- 자바에서는 Build기준점ㄱㄱ.
+- 자바에서는 Compile보단 Build개념으로 표현해주는게 더맞는듯.
+- Build에서도 build산물로 실행할때 Jit라서 어차피 실행시인 runtime에 compile을 때려버리기에. 너무애매해짐. 표현명확히할것. 그위해 Build>>Compile 이표현이 더맞다.
+- 표현.Java-Build>>Compile
+- 표현.Java-Build>>Compile-기준단위Build
+- 표현.C-Build<<Compile
+- 표현.C-Build<<Compile-기준단위Compile
+- Java.Build>>Compile
+- Java.✅Build>>❌Compile
+- Java.✅Build❌Compile
+- Java.✅Build.❌Compile
+- Java.✅Build.❌Compile-자바는 빌드이지 컴파일이아니다.-표현유의

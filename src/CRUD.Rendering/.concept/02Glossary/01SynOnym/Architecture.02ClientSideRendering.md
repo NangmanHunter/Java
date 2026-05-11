@@ -1,0 +1,27 @@
+- ✅Clent ← ❌Server-Rendering
+- ✅Clent←❌Server-Rendering
+- ✅Clentㆍ❌Server-Rendering
+- CSR (Client Side Rendering): 프론트 프레임워크를 사용. 서버는 JSON 데이터만 주고, 브라우저에서 뷰(Vue)나 리액트가 화면을 그림.
+- Rendering.02.CSR
+- Rendering.02ClientSide
+- Rendering.02ClientSideRendering
+- Architecture.Rendering.02ClientSideRendering
+- Architecture.02ClientSideRendering
+- Architecture.02CSR.02ClientSideRendering
+- Architecture.Rendering.02CSR
+- Architecture.02CSR
+- Architecture.Rendering.CSR
+- Architecture.CSR
+- Architecture.CSR.ClientSideRendering
+- Rendering.02CSR
+- ClientSideRendering
+- Rendering.CSR
+- CSR
+- Rendering.ClientSideRendering>>ServerSideRendering
+- Rendering.CSR>>SSR
+- Rendering.CSR>>SSR-디폴트는 CSR이다
+- Rendering.CSR>>SSR-디폴트는 CSR이다.-여기서진행이다.ㄱㄱ.
+- 2세대: "프런트엔드의 독립" (SPA와 CSR의 등장)
+- 2세대: "프런트엔드의 독립" (SPA와 CSR의 등장)
+- **React, Vue** 같은 라이브러리가 나오면서 상황이 바뀝니다. 백엔드는 데이터(JSON)만 주고, 브라우저가 자바스크립트를 실행해 화면을 그리는 **CSR(Client Side Rendering)** 방식이 대세가 됩니다. 이때부터 백엔드와 프런트엔드의 물리적 분리가 일어납니다.
+- 

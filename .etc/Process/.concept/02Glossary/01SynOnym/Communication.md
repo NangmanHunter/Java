@@ -1,0 +1,2 @@
+- Communication
+- 통신

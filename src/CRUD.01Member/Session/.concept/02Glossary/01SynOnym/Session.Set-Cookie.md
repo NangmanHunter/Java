@@ -1,0 +1,11 @@
+- Session.Cookie에담아서보냄.Set-Cookie
+- Session.Set-Cookie
+- Session.Set-Cookie(응답헤더)
+- Session.Set-Cookie(Response)
+- Session.Set-Cookie(ResponseHeader)
+- Session.Cookie에담아서보냄.Set-Cookie.쿠키에담으라는명령보냄.
+- Session.Cookie에담아서보냄.Set-Cookie.쿠키에담으라는명령보냄.브라우저 알아서 Cookie에붙임.그리고 매요청마다 쿠키 자동으로던짐.쿠키자체가 자동던짐임.
+- Response.Header.Set-Cookie.SessionId
+- 세션은 쿠키통해 주고받는다.
+- 세션은 쿠키통해 세션아이디주고받는다.
+- 세션은 쿠키통해 세션아이디주고받는다.-엄밀히

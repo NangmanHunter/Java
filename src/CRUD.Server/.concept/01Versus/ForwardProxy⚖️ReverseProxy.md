@@ -1,0 +1,6 @@
+- ForwardProxy⚖️ReverseProxy
+- ForwardProxy⚖️ReverseProxy-관리주체가 누구냐에따라 다른것밖에없음. 
+- ForwardProxy⚖️ReverseProxy-전체모양은 완연동일
+- ForwardProxy⚖️ReverseProxy-`ㅁ↔ㅁ↔ㅁ`.`ㅁ(Client)↔ㅁ(Client)↔ㅁ(Server)`-ForwardProxy
+- ForwardProxy⚖️ReverseProxy-`ㅁ↔ㅁ↔ㅁ`.`ㅁ(Client)↔ㅁ(Server)↔ㅁ(Server)`-ReverseProxy
+- Proxy⚖️ReverseProxy

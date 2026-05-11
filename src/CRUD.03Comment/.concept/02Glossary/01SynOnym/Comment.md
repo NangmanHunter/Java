@@ -1,4 +1,5 @@
 - Comment
+- Comment.댓글
 - Board.Comment
 - `Board.Comment`
 - `Board`.`Comment`

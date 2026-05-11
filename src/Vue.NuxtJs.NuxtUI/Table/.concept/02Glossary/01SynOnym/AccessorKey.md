@@ -1,17 +1,17 @@
+- 액세서키
+- 엑세서키
 - 이중Json접근
 - 이중Json접근.`.`형식으로
-- Columns.AccessorKey.DataㆍKey
-- Columns.AccessorKey.Data.Key
-- columns.accessorkey.data.key
-- accessorkey.key
 - accessorkey
+- accessorKey
 - Accessorkey
 - AccessorKey
-- 엑세서키
-- 액세서키
-- accessorkey(columns).key(data)
-- AccessorKey.Data에서 Key부분 가져오는형태
 - accessorkey.data에서 key부분 가져오는형태
+- AccessorKey.Data에서 Key부분 가져오는형태
+- AccessorKey.Data이것과 따로구분위해도입.접근함에도 바로접근할수있게 이중Json 바로갈수있게 `.`형태접근
+- accessorkey.key
+- accessorkey(columns).key(data)
+- columns.accessorkey.data.key
+- Columns.AccessorKey.Data.Key
 - columns.accessorkey.data에서 key부분 가져오는형태
-- accessorKey
-
+- Columns.AccessorKey.DataㆍKey

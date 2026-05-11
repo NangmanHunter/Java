@@ -39,3 +39,13 @@
 - 레이아웃슬롯.페이지스에서정의-여기는 무조건 무지성 붙박이형으로 들어오는형태.
 - 컴포넌트슬롯.컴포넌트쓰는시점에서정의
 - 컴포넌트슬롯.컴포넌트쓰는시점에서정의-더유동적이고 더가변적 더자유로움.
+- 📁pages／.📁layouts／.📁components／
+- `📁pages／.📁layouts／.📁components／`
+- `📁pages／.📁layouts／.📁components／`-개념발전순서
+- `📁pages／.📁layouts／.📁components／`<<`📁layouts／.📁pages／.📁components／`-대소
+- `📁pages／.📁layouts／.📁components／`<<`📁layouts／.📁pages／.📁components／`-근래
+- `📁pages／.📁layouts／.📁components／`<<`📁layouts／.📁pages／.📁components／`-근래.대소
+- `📁pages／.📁layouts／.📁components／`>>`📁layouts／.📁pages／.📁components／`-종래
+- `📁pages／.📁layouts／.📁components／`>>`📁layouts／.📁pages／.📁components／`-종래.주부
+- `📁layouts／.📁pages／.📁components／`
+

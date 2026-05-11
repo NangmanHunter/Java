@@ -1,0 +1,40 @@
+- ❌Clent ← ✅Server-Rendering
+- ❌Clent←✅Server-Rendering
+- ❌Clentㆍ✅Server-Rendering
+- 더 정확하게는 서버에서 실행된다고 해서 '서버 사이드 템플릿 엔진(Server-side Template Engine)'이라고 지칭해.
+- Rendering.01.SSR
+- Rendering.SSR
+- Architecture.SSR
+- Architecture.01SSR
+- Architecture.Rendering.01SSR
+- Architecture.Rendering.SSR
+- Architecture.Rendering.ServerSideRendering
+- Architecture.Rendering.01ServerSideRendering
+- Architecture.01ServerSideRendering
+- Architecture.01SSR.01ServerSideRendering
+- Architecture.SSR.ServerSideRendering
+- SSR
+- TraditionalSSR
+- LegacySSR
+- OriginSSR
+- 본래SSR
+- 전통적SSR
+- 백엔드적SSR
+- 백엔드SSR
+- Rendering.01ServerSideRendering
+- Rendering.01ServerSideRendering-랜더링방식을 정한후. 그다음 TemplateEngine을 정하는형태.
+- Rendering.01ServerSideRendering-엄밀히 렌더링 이라는표현이 더맞다.
+- Rendering.01SSR
+- SSR (Server Side Rendering): 템플릿 엔진을 사용. 서버(스프링)가 HTML을 다 구워버려서 브라우저에 던져줌. (JSP, 타임리프)
+- BackEndSSR
+- BackEndServerSSR
+- BackendServerSSR
+- 1세대: "백엔드가 곧 SSR 서버였다" (Traditional SSR)
+- "백엔드에서 SSR 하는 게 엄밀한 개념 아닌가요?"** **맞습니다.** 전통적인 의미의 SSR은 백엔드가 템플릿 엔진을 통해 HTML을 만드는 것이었습니다. 
+- "백엔드에서 SSR 하는 게 엄밀한 개념 아닌가요?"** 하지만 현대 웹 개발에서 **"SSR 서버"**라고 하면 보통 **"백엔드 API를 호출해서 화면을 그리는 Node.js 기반의 프런트엔드 서버"**를 지칭하는 경우가 훨씬 많아졌습니다.
+- 질문자님 말씀대로 원래 SSR은 백엔드의 몫이었지만
+- 원래 SSR은 백엔드의 고유 영역이었고, 프런트엔드 서버가 등장하면서 그 의미가 확장되고 분리된 것입니다.
+- 1세대: "백엔드가 곧 SSR 서버였다" (Traditional SSR)
+- 과거에는 프런트엔드 서버라는 개념 자체가 없었습니다. **Java(JSP), PHP, Python(Django)** 같은 백엔드 언어가 데이터베이스에서 데이터를 가져온 뒤, 서버에서 직접 HTML 파일을 다 만들어서 브라우저에 던져줬습니다.
+* **구조:** `브라우저 <---> 백엔드(데이터+렌더링)`
+* 이때는 SSR이 곧 백엔드의 업무였으므로, 굳이 '프런트엔드 서버'라고 부를 게 없었습니다.

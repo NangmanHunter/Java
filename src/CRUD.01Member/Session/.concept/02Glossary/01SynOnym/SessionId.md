@@ -1,0 +1,5 @@
+- SessionId
+- SessionID
+- SESSIONID
+- SESSION_ID
+- 세션아이디

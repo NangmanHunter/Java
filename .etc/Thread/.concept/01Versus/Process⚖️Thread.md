@@ -1,2 +1,3 @@
 - Process⚖️Thread
 - Process↔️Thread
+- 프로세스⚖️스레드

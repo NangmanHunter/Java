@@ -1,5 +1,11 @@
 - JDK
+- SDK.JDK
+- SDK.JDK.JavaSDK
+- SDK.JDK.SDKJava
+- SDK.JDK.SDK+Java
+- SDK.JDK.SDKㆍJava
 - `JDK`
+- `JDK`.Java용 SDK
 - `JDK`.여기까지 받아야한다.
 - `JDK`.여기까지 받아야한다.-최소 마지노선임.
 - `JDK`.여기까지 받아야한다.-디폴트임
