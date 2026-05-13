@@ -1,4 +1,6 @@
 - Error.01CompileError
+- Error.CompileError
+- Error.01BuildError.CompileError
 - Error.99CompileError
 - Error.01Compile
 - CompileError

@@ -1,0 +1,6 @@
+- "컴파일 에러는 빌드 에러의 부분 집합"이라고 보시면 됩니다. 
+- 프로젝트 규모가 커지고 자동화된 빌드 도구를 사용할수록 "빌드 에러가 났다"는 표현이 상황을 더 풍부하게 설명해 줍니다.
+- BuildError
+- BuildtimeError
+- BuildTimeError
+- BuildError.CompileError
