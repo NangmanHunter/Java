@@ -1,0 +1,18 @@
+- `useFetch`>>`$fetch`
+- `useFetch`.`$fetch`
+- useFetch.$fetch
+- `useFetch`>>`$fetch`-통상
+- `useFetch`>>`$fetch`-SSR
+- `useFetch`>>`$fetch`-SSR+CSR
+- `useFetch`<<`$fetch`-CSR만해야되는경우
+- `useFetch`<<`$fetch`-버튼클릭경우에만 되는경우
+- `useFetch`<<`$fetch`-중간전송경우
+- `useFetch`<<`$fetch`-중간요청경우
+- `useFetch`<<`$fetch`-중간요청경우.회원가입
+- `useFetch`<<`$fetch`-중간요청경우.✅회원가입ㆍ❌정보수정
+- `useFetch`<<`$fetch`-중간요청경우.✅회원가입ㆍ❌정보수정-수정도 생각해보니 애당초 최초 기존데이터 불러와야되는경우있음. 그러면 SSR 이것부터가고. useFetch 이게훨씬더나음ㄱㄱ.
+- `useFetch`<<`$fetch`-중간요청경우.회원가입
+- `useFetch`<<`$fetch`-중간요청경우.회원가입ㆍ게시글작성
+- `useFetch`<<`$fetch`-중간호출경우
+- `useFetch`<<`$fetch`-중간호출경우.작성
+- `useFetch`<<`$fetch`-중간호출경우.작성(C)

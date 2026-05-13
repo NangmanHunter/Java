@@ -1,8 +1,32 @@
 - $fetch
 - `$fetch`
+- `$fetch`.ofetch
+- `$fetch`.`ofetch`
+- `$fetch`.`ofetch`.CSR
+- `$fetch`.함수ㆍTryCatch
+- `$fetch`.함수 + TryCatch
+- `$fetch`.함수+TryCatch
+- `$fetch`.함수.TryCatch
+- `$fetch`.✅함수.TryCatch
+- `$fetch`.✅CSRㆍ❌SSR
+- `$fetch`.함수내에서 선언
+- `$fetch`.함수내에서선언
+- `$fetch`.함수내선언
 - `$fetch`.`fetch`ㆍ`.json()`
 - `$fetch`=`fetch`+`.json()`
 - `$fetch` = `fetch`+`.json()`
 - `$fetch`.NuxtJs에서 Json으로 자동변환
 - 표준 fetch를 쓰면 응답을 받은 뒤에 반드시 .json()을 호출하고 await를 한 번 더 해줘야 하죠. $fetch는 응답 헤더가 application/json이면 자동으로 파싱해 줍니다.
 - 자동으로 JSON을 변환합니다 (.json() 생략)
+- $fetch (네트워크 요청용 헬퍼)
+- $fetch는 단순히 HTTP 요청을 보내는 순수 함수입니다. (내부적으로 ofetch 라이브러리를 사용합니다.)
+- SSR 최적화 없음: 만약 setup 단계(컴포넌트 로드 시점)에서 $fetch를 그냥 써버리면, 서버에서 한 번 요청하고 브라우저에서 또 한 번 요청하는 '중복 호출'이 발생합니다.
+- 상태 관리 없음: 로딩 중인지 에러가 났는지 직접 ref를 만들어서 관리해야 합니다.
+- 이벤트 기반: 버튼을 클릭했을 때, 폼을 제출할 때처럼 사용자의 특정 행동이 있을 때 실행하기 적합합니다.
+- $fetch.범용 네트워크 요청 함수
+- `$fetch`는 Nuxt에서 제공하는 HTTP 클라이언트인 **ofetch**의 별칭입니다. 
+- 일반적인 JavaScript의 `fetch`와 비슷하게 동작합니다.
+- $fetch (오브콜스, 단순 호출)
+- **용도:** 클릭 이벤트(버튼 클릭), 폼 제출, 혹은 클라이언트 사이드에서만 실행되는 로직에 적합합니다.
+- **특징:** 호출하면 즉시 실행되며, 응답 데이터를 직접 반환합니다.
+- **주의점:** `setup()` 내에서 직접 사용하면 **네트워크 중복 호출(Double Fetch)** 현상이 발생합니다. 서버에서 데이터를 가져온 뒤, 브라우저에서 하이드레이션(Hydration) 과정 중에 똑같은 요청을 한 번 더 보내게 됩니다.

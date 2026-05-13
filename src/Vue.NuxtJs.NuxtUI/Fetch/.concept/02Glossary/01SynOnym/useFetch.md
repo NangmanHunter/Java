@@ -1,2 +1,32 @@
 - useFetch
+- useFetch.SSR
 - useFetch()
+- `useFetch`
+- `useFetch`.✅CSRㆍ✅SSR
+- `useFetch`.✅CSR✅SSR
+- `useFetch`.SSR.✅CSR✅SSR
+- `useFetch`.함수 안에 넣지 않고 바로 호출합니다. 
+- `useFetch()`
+- `useFetch()`.onResponseError()
+- `useFetch()`.onResponseError(){}
+- `useFetch()`.onResponseError
+- `useFetch()`.`onResponseError`
+- `useFetch()`.함수외에서선언
+- `useFetch()`.함수외선언
+- `useFetch()`.❌함수
+- `useFetch()`.❌함수.onResponseError()
+- `useFetch()`.❌함수.`onResponseError()`
+- `useFetch()`>>`$fetch()`
+- `useFetch`>>`$fetch`
+- `useFetch`(SSR)>>`$fetch`(CSR)
+- SSR(서버 사이드 렌더링) 최적화: 서버에서 페이지를 만들 때 데이터를 미리 가져옵니다. 덕분에 사용자는 데이터가 채워진 완성된 화면을 바로 보게 됩니다.
+- 상태 관리 자동화: data, pending, error, refresh 같은 상태 값을 자동으로 돌려줍니다. "로딩 중인가?" 같은 체크를 우리가 일일이 할 필요가 줄어듭니다.
+- 중복 호출 방지: 서버에서 이미 가져온 데이터를 브라우저로 전달하기 때문에, 클라이언트(브라우저)에서 똑같은 데이터를 또 요청하지 않습니다. (이게 성능 핵심입니다!)
+- useFecth.Nuxt 전용 하이레벨 컴포저블
+- useFetch (컴포저블 워퍼)
+- `useFetch`는 `$fetch`를 감싸서 Nuxt의 수명 주기(Lifecycle)에 맞게 최적화한 컴포저블(Composable)입니다.
+- **용도:** 페이지가 로드될 때 필요한 데이터를 서버에서 미리 가져올 때(SSR) 가장 권장되는 방식입니다.
+- **특징:**
+- **중복 호출 방지:** 서버에서 이미 데이터를 가져왔다면 브라우저로 전달(Payload 전달)하여 재호출하지 않습니다.
+- **반응형 상태 제공:** `data`, `pending`, `error`, `refresh` 같은 반응형 객체를 반환하므로 UI 상태 관리가 매우 편합니다.
+- **작동 원리:** `useAsyncData`와 `$fetch`를 결합한 형태입니다.

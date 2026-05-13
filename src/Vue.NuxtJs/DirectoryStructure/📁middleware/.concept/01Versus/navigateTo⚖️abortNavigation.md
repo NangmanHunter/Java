@@ -1,0 +1,3 @@
+- navigateTo⚖️abortNavigation
+- navigateTo()⚖️abortNavigation()
+- navigateTo('/')⚖️abortNavigation()

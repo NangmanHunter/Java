@@ -1,0 +1,17 @@
+- Nuxt의 동적 파라미터(Dynamic Parameters) 폴더
+- DynamicParametersDirecotry
+- DynamicParametersDirecotry.`validate`
+- DynamicParametersDirecotry.`validate`.`definePageMeta`ㆍ`validate`
+- DynamicParametersFolder
+- DynamicParameters
+- DynamicParameters.DynamicParametersDirecotry
+- DynamicRoutes.DynamicParameters.DynamicParametersDirecotry
+- DynamicRoutes.DynamicParameters.Parameters.params.`route.params`
+- Nuxt 3에서 [ ]를 사용하는 이 개념의 정확한 공식 명칭은 Dynamic Routes (동적 라우팅)입니다.
+- 조금 더 구체적으로 들어가면, 폴더나 파일명에 사용하는 이 대괄호 문법을 Dynamic Parameters (동적 파라미터)라고 부릅니다.
+- Dynamic Routes👉URL의 특정 부분이 고정되지 않고 데이터에 따라 변하는 라우팅 전체를 일컫는 말입니다.
+- Dynamic Parameters👉[id], [type] 처럼 대괄호로 감싸진 변수 그 자체를 의미합니다.
+- Catch-all Route👉[...slug].vue 처럼 사용하며, 하위의 모든 경로를 한꺼번에 잡아낼 때 사용합니다.
+- 작동 원리: 파일 기반 라우팅 (File-based Routing)👉Nuxt는 pages/ 폴더의 구조를 그대로 가져와서 실제 웹사이트의 주소(URL)를 자동으로 생성합니다. 이때 대괄호([ ])는 "이 자리는 어떤 값이 와도 좋은 변수 자리야!"라고 Nuxt에게 알려주는 신호입니다.
+- 사용하신 문법의 정확한 이름은 Dynamic Routes (동적 라우팅)이며, 그 안에 들어가는 type이나 id 같은 것들을 Route Parameters (라우트 파라미터)라고 부릅니다.
+- Nuxt 공식 문서에서도 "Dynamic Routes" 섹션을 찾으시면 방금 우리가 이야기한 모든 내용을 확인하실 수 있습니다

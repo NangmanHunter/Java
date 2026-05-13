@@ -2,6 +2,7 @@
 - Session.❌️Os.✅️Was
 - Session.✅️Was
 - Session.Was
+- Was.Session
 - Session.Was에서붙인거
 - Session.Was에서붙인것
 - Session.Was에서끌어온것

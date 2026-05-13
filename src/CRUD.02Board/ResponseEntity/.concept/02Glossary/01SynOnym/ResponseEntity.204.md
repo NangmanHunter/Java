@@ -1,4 +1,9 @@
 - ResponseEntity.204
+- ResponseEntity.204.build()
+- ResponseEntity.204.`build()`
+- ResponseEntity.204.`build()`.`body(null)`
+- ResponseEntity.204.`build()`.`body(null)`-`.build()`: "바디(Body) 없이 응답 객체를 완성하겠다"는 뜻입니다.
+- ResponseEntity.204.`build()`.`body(null)`.Body가없어서 바로 build() 이형태로진행
 - ResponseEntity.204(Delete)
 - ResponseEntity.status(HttpStatus.NO_CONTENT)
 - 204👉ResponseEntity.status(HttpStatus.NO_CONTENT)

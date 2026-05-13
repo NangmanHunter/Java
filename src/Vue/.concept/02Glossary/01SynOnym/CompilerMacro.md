@@ -1,0 +1,10 @@
+- 컴파일러 매크로
+- 컴파일러매크로
+- `<script setup>`
+- script.setup
+- Script.Setup
+- 사실 `<script setup>`은 Vue 3에서 도입된 '신의 한 수'라고 불리는 **컴파일러 매크로**입니다.
+- CompilerMacro
+- `CompilerMacro`
+- CompilerMacro.`<script setup>`
+- Compiler Macro

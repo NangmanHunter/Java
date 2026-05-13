@@ -1,0 +1,6 @@
+- MiddleWare.KebabCase
+- MiddleWare.✅KebabCase
+- MiddleWare.❌CamelCase✅KebabCase
+- MiddleWare.❌CamelCase.✅KebabCase
+- MiddleWare.❌CamelCase(loggedIn).✅KebabCase(logged-in)
+- MiddleWare.❌CamelCase(`loggedIn`).✅KebabCase(`logged-in`)

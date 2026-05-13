@@ -1,0 +1,112 @@
+- [BoardType]<<[type]-종래
+- [BoardType]>>[type]-근래
+- `[boardType]`.`boardType`.`BoardType`.`board_type`
+- `[boardType]`(Front.Page).`boardType`(Front).`BoardType`(Back.Class).`board_type`(DB)
+- `[boardType]`(Front.Page).`boardType`(Front).`boardType`(Back).`board_type`(DB)
+- `[boardType]`(Front.Page).`boardType`(Front).`BoardType`(Back).`board_type`(DB)
+- `boardType`.`BoardType`.`board_type`
+- `BoardType`.`BoardType`.`BoardType`
+- `BoardType`이걸로 싹다가버려서.
+- ⚓boardType
+- 💻boardType
+- Backend.BoardType<<Type-객체지향적
+- Backend.BoardType<<Type-객체지향적.의미적
+- Backend.BoardType>>Type
+- Backend.BoardType>>Type-공식적
+- Backend.BoardType>>Type-공식적.내스타일
+- Backend.BoardType>>Type-규칙적
+- Backend.BoardType>>Type-매번해석ㄴㄴ. 무지성작업성 무지성연산성ㄱㄱ.
+- Backend.BoardType>>Type-불변성>>가변성
+- Backend.BoardType>>Type-불변성>>경량성
+- Backend.BoardType>>Type-상수성>>경량성
+- Backend.BoardType>>Type-상수성>>변수성
+- Backend.BoardType>>Type-아싸리통일화통한 작업성극화ㄱㄱ.
+- Backend.BoardType>>Type-이런식으로 싹바꿔버리자ㄱㄱ.
+- Backend.BoardType>>Type-인간성<<기계성
+- Backend.BoardType>>Type-인간성<<일관성
+- Backend.BoardType>>Type-인간성<<일정성
+- Backend.BoardType>>Type-인간성<<작업성
+- Backend.BoardType>>Type-인간성<<후딱성
+- Backend.BoardType>>Type-일정성>>인간성
+- Backend.BoardType>>Type-통일성>>가변성
+- Backend.BoardType>>Type-통일성>>의미성
+- Backend.BoardType>>Type-통일성>>인간성
+- Backend.BoardType>>Type-획일적
+- boardType
+- BoardType
+- BoardType.`boardType`
+- BoardType.01Frontend.01Page.Type<<BoardType
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardtype`
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardType`>>`boardtype`-종래
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardType`<<`boardtype`
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardType`<<`boardtype`-근래
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardType`
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardType`-이걸못쓸이유는없어서. 이것대로진행ㄱㄱ.
+- BoardType.01Frontend.01Page.`Type`<<`BoardType`<<`boardType`-근데 이것도 완벽한선택지는ㄴㄴ.-경로라서 카멜케이스<<로어케이스
+- BoardType.01Frontend.01Page.BoardType
+- BoardType.01Frontend.01Page.Type<<BoardType-Nuxt규칙때문에 뭉개지나.-그럼에도 파라미터 일정화 동일화위해 가주는게 오히려 더나은듯함.
+- BoardType.01Frontend.01Page.Type<<BoardType-근데 생각해보면 무지성통일화해줘버리면 그대로 가기는함.-물론 중간에 살짝줄여주고.-다시금 팽창시키는형태로 진행하는형태. 특히 변수명잡아줄때 boardType 이걸로 잡아주기에. js변수명 boardType>>type
+- BoardType.01Frontend.01Page.Type>>BoardType
+- BoardType.01Frontend.01Page.Type>>BoardType-이게 Nuxt가 가는형태.
+- BoardType.01Frontend.01Page.Type>>BoardType-경량성으로 가주는게 더맞다ㄱㄱ.
+- BoardType.01Frontend.01Page.Type<<BoardType-근데 안된다...;; Nuxt에서 Flattening으로 중복줄여줘버림.
+- BoardType.01Frontend.Page.Type<<BoardType
+- BoardType.01Frontend.Type<<BoardType
+- BoardType.02Backend.Type<<BoardType
+- BoardType.03DB.Type<<BoardType
+- boardType.아싸리 통일화시켜버릴까.
+- BoardType.boardType
+- BoardType.boardType.boardtype
+- BoardType.`boardType`.boardtype
+- DB.BoardType
+- DB.BoardType>>Type
+- DB.Type<<BoardType
+- Frontend.boardType>>type
+- Frontend.BoardType>>Type
+- Frontend.Page.BoardType<<Type-종래
+- Frontend.Page.Type<<BoardType
+- Frontend.Page.Type<<BoardType-근래
+- Frontend.Page.Type>>BoardType-종래
+- Frontend.Type<<BoardType
+- `type`.`boardType`.`BoardType`.`boardType`.`board_type`
+- `type`.`boardType`.`BoardType`.`boardType`.`board_type`-Nuxt에서 ✅type❌boardType❌boardtype 
+- `type`.`boardType`.`BoardType`.`boardType`.`board_type`-영역별접근형태
+- `boardtype`.`boardType`.`BoardType`.`boardType`.`board_type`
+- `boardtype`(Front.Page).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)
+- `boardtype`(Front.Page).`type`(Front.Route).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)
+- `boardType`(Front.Page).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-Page부분 경로부분 CamelCase되긴하나 완연최적ㄴㄴ.-경로부분 LowerCase>>CamelCase
+- `boardtype`.`boardType`.`BoardType`.`boardType`.`board_type`-욕하던게 경로부분에 카멜해서 너무모양새 날리는게 너무별로였던것처럼. 여기서부터 변수명부터 아싸리 소문자로 그냥진행ㄱㄱ.-대신 줄임화 어쩔수없이 그냥진행되서 그렇게진행되게ㄱㄱ.
+- `boardtype`.`boardType`.`BoardType`.`boardType`.`board_type`-경로는 lowercase 이게오히려 더맞을듯함.
+- `boardType`.`boardType`.`BoardType`.`boardType`.`board_type`
+- 경로.LowerCase>>CamelCase
+- 경로.`boardtype`>>`boardType`
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 정책에 반하지마라.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 규칙에 반하지마라.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 각언어규칙에 반하지마라.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 각언어에 반하지마라.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 각언어 지향점 철저히 더따라줄것.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 각언어 지향점 철저히 더따라줄것.-매핑통한 최적화형태로 진행해줄것ㄱㄱ.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Mapping).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-결론 각언어 지향점 철저히 더따라줄것.-매핑만 다르게가줄것ㄱㄱ.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Path).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)
+- `type`(Front.Path).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Path).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)
+- `type`(Front.Path).`type`(Front.Route).`boardType`(Front).`boardType`(Back.Path).`BoardType`(Back.Class).`boardType`(Back.Variable).`board_type`(DB)
+- `type`(Front.Path).`type`(Front.Route).`boardType`(Front.Variable).`boardType`(Back.Path).`BoardType`(Back.Class).`boardType`(Back.Variable).`board_type`(DB)
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-규칙에 반하지않게.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-Nuxt규칙에 반하지않게.
+- `type`(Front.Page).`type`(Front.Route).`boardType`(Front).`BoardType`(Back.Class).`boardType`(Back.Field).`board_type`(DB)-대신 백엔드 여기로 들어왔을때만 그때만 조금다르게 구성해주는형태ㄱㄱ.
+- 경로.`type`(Front.Page).`boardType`(Back.Mapping)
+- 경로.`type`(Front.Page)
+- 경로.`type`(Front.Page) vs. `boardtype`(Front.Page)
+- 경로.`type`(Front.Page) vs. `boardType`(Front.Page) vs. `boardtype`(Front.Page)
+- 경로.`type`(Front.Page)<<`boardType`(Front.Page)>>`boardtype`(Front.Page)-최초성
+- 경로.`type`(Front.Page)<<`boardType`(Front.Page)<<`boardtype`(Front.Page)-경로성
+- 경로.`type`(Front.Page)<<`boardType`(Front.Page)<<`boardtype`(Front.Page)-경로성.근데도 Nuxt규칙에서는 원하지는않는듯함. 중복성지양하는 그런언어쪽인지라.
+- 경로.`type`(Front.Page)<<`boardType`(Front.Page)>>`boardtype`(Front.Page)-그나마 가장중심적 중심성
+- 경로.`type`(Front.Page)>>`boardType`(Front.Page)>>`boardtype`(Front.Page)-Nuxt규칙
+- 경로.`type`(Front.Page).`boardType`(Back.Path)
+- 경로.`type`(Front.Path).`boardType`(Back.Path)
+- 경로.`type`(Front.Path).`boardType`(Back.Path)-맘같아선 다통일시켜주고싶다가도.-각언어별 각지향하는게달라. 조금조금씩 문법들이다름. 그부분 어기거나 어거지로 내질서로 끌어오기보단. 그언어별로 그언어별최적화 그대로가줄것ㄱㄱ. 최대한가주고. 싹가주고.-전체성을 그냥별도로잡아 별도로 최적화가는형태ㄱㄱ. 오히려 이게더맞을듯ㄱㄱ.
+- 경로.`type`(Front.Path).`boardType`(Back.Path)-오히려 이게더맞을듯함.-다른것은다르게.

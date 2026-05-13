@@ -1,8 +1,5 @@
 ##
-- ✅`navigateTo('/board')`
-  - Vue형태
-- ❌`router.push('/board')`
-  - Js형태
+
 
 
 ##

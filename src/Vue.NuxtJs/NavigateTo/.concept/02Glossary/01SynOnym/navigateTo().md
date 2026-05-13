@@ -1,0 +1,4 @@
+- ✅`navigateTo('/board')`
+- `navigateTo('/board')`
+- `navigateTo()`
+- `navigateTo()`.Nuxt형태

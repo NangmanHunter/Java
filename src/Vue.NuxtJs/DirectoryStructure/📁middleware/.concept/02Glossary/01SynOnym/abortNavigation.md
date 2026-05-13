@@ -1,0 +1,6 @@
+- abortNavigation
+- abortNavigation()
+- `abortNavigation()`
+- `abortNavigation()`.현재페이지
+- `abortNavigation()`.현재페이지머뭄
+- `abortNavigation()`.현재페이지 머뭄

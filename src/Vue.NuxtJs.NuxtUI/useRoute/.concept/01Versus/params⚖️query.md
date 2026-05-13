@@ -1,0 +1,5 @@
+- params⚖️query
+- `params`⚖️`query`
+- `route.params`⚖️`route.query`
+- `route.params.id`⚖️`route.query.page`
+- `route.params.ㅇㅇ`⚖️`route.query.ㅇㅇ`

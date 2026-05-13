@@ -1,0 +1,5 @@
+- 파일 이름에 대괄호([])를 쓴 부분만 params에 잡힙니다.
+- route.params
+- params
+- `route.params`
+- `params`

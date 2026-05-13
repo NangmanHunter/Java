@@ -1,0 +1,5 @@
+- router.push()
+- ❌`router.push('/board')`
+- `router.push('/board')`
+- `router.push()`
+- `router.push()`.Vue형태
