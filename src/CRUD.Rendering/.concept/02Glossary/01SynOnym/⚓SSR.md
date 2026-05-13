@@ -1,0 +1,14 @@
+- SSR
+- SSR.서버환경
+- SSR.서버환경.내부통신
+- SSR.서버환경.내부통신.상대적빠름
+- SSR.프론트서버환경.내부통신
+- SSR.프론트서버환경.내부통신.상대적빠름
+- SSR.서버환경.Nuxt서버
+- SSR.서버환경.프론트서버
+- SSR.내부망
+- SSR.내부망.`http:// ...`
+- SSR.내부망.`http://backend:8080`
+- ServerSideRendering
+- SSR.ServerSideRendering
+- 서버 환경 $\rightarrow$ apiServerBase (내부 통신, 빠름)

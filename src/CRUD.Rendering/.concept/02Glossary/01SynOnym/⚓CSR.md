@@ -1,0 +1,10 @@
+- CSR
+- CSR.브라우저환경
+- CSR.브라우저환경.외부통신
+- CSR.브라우저환경.외부통신.정상적인경로
+- CSR.브라우저환경.외부통신.정상적인경로.상대적느림
+- CSR.외부망
+- CSR.외부망.`https:// ...`
+- ClientSideRendring
+- CSR.ClientSideRendring
+- 브라우저 환경 $\rightarrow$ apiBase (외부 통신, 정상적인 경로)
