@@ -1,4 +1,7 @@
 - Jackson
+- JacksonLibrary
+- 잭슨
+- 잭슨라이브러리
 - Jackson.Java객체ㆍJson으로던져줌
 - Jackson.Java객체ㆍJson으로바꿔줌
 - Jackson (JSON 변환)

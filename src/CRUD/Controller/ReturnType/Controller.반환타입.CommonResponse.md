@@ -1,6 +1,11 @@
-전공자로서 설계의 '결벽성'과 '실용성' 사이에서 고민하시는 아주 지극히 정상적인 과정입니다. 물리 법칙에도 상황에 따라 근사식을 쓸지, 정밀식을 쓸지 결정하듯 컨트롤러의 반환형도 프로젝트의 규모와 **"낭만"**의 지향점에 따라 결정됩니다.
 
-결론부터 말씀드리면, **현대적인 표준은 `ResponseEntity<CommonResponse<?>>` 또는 `ResponseEntity<DTO>`**입니다. 각각의 특징을 비교해 드릴 테니 본인의 스타일에 맞는 것을 골라보세요.
+
+
+##
+- `ResponseEntity<CommonResponse<?>>`
+- `ResponseEntity<CommonResponse<?>>`>>`ResponseEntity<DTO>`
+
+
 
 ---
 
@@ -29,7 +34,9 @@ public record CommonResponse<T>(
     String message,
     T data
 ) {}
+```
 
+```java
 // 컨트롤러 적용
 @PostMapping
 public ResponseEntity<CommonResponse<BoardCreateResponse>> write(...) {
@@ -44,6 +51,9 @@ public ResponseEntity<CommonResponse<BoardCreateResponse>> write(...) {
 * **단점:** 코드가 조금 길어지고, 응답을 한 번 더 감싸야 하는 번거로움이 있습니다.
 
 ---
+
+
+
 
 ### 3. 왜 `ResponseEntity<DTO>`가 '깔끔'한가?
 
@@ -66,6 +76,7 @@ public ResponseEntity<BoardCreateResponse> write(...) {
 
 1.  **지금 당장은:** `ResponseEntity<?>`를 쓰셔도 무방합니다. 구현 속도가 중요하니까요.
 2.  **프로젝트가 커지면:** `ResponseEntity<CommonResponse<?>>` 도입을 고려하세요. 나중에 Nuxt에서 공통 모듈로 에러 처리를 할 때 "와, 이거 구조 똑같이 하길 잘했다"라는 생각이 드실 겁니다.
+
 
 ### 💡 전공자로서의 조언
 수학에서 수식을 정리할 때 공통 인수로 묶어내는 것이 깔끔하듯, API 응답도 **공통된 구조(CommonResponse)**로 묶어내는 것이 나중에 유지보수할 때 훨씬 논리적으로 편안함을 줍니다.
